@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-27T10:59:27+00:00",
+  "updated": "2026-07-27T11:04:24+00:00",
   "items": [
     {
       "key": "gehakt",
@@ -47,16 +47,6 @@
       "title": "De Zaanse Hoeve Yoghurt Griekse stijl 10% vet",
       "size": "1 kg",
       "price": 1.89,
-      "bonusPrice": null,
-      "isBonus": false,
-      "mechanism": null
-    },
-    {
-      "key": "kaas",
-      "id": 197172,
-      "title": "De Zaanse Hoeve Mild 30+ geraspt",
-      "size": "200 g",
-      "price": 2.19,
       "bonusPrice": null,
       "isBonus": false,
       "mechanism": null
@@ -162,16 +152,6 @@
       "mechanism": null
     },
     {
-      "key": "knoflook",
-      "id": 4160,
-      "title": "AH Knoflook",
-      "size": "2 stuks",
-      "price": 1.45,
-      "bonusPrice": null,
-      "isBonus": false,
-      "mechanism": null
-    },
-    {
       "key": "paprika",
       "id": 4117,
       "title": "AH Paprika rood",
@@ -197,16 +177,6 @@
       "title": "AH Baby avocado eetrijp",
       "size": "4 stuks",
       "price": 2.99,
-      "bonusPrice": null,
-      "isBonus": false,
-      "mechanism": null
-    },
-    {
-      "key": "limoen",
-      "id": 519646,
-      "title": "AH Limoenen",
-      "size": "4 stuks",
-      "price": 1.45,
       "bonusPrice": null,
       "isBonus": false,
       "mechanism": null
