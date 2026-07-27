@@ -3,88 +3,90 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Weekmenu 27–30 jul</title>
+<title>Weekmenu</title>
 <link rel="manifest" href="manifest.json">
 <link rel="icon" href="icon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="icon.svg">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
-<meta name="theme-color" content="#2f6b3a">
-</head>
-<body>
+<meta name="theme-color" content="#b5502a">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
 <style>
   :root {
-    --bg: #fbfaf7;
-    --surface: #ffffff;
-    --ink: #23211c;
-    --ink-soft: #6e6a5e;
-    --line: #e6e3d9;
-    --accent: #2f6b3a;
-    --accent-ink: #ffffff;
-    --accent-soft: #e9f1ea;
-    --done: #a8a294;
-    --deal: #a35200;
-    --deal-soft: #fdeeda;
+    --bg: #f4ecdd;
+    --surface: #fdf8ee;
+    --ink: #3a2e23;
+    --ink-soft: #8a7a68;
+    --line: #ddd0ba;
+    --accent: #b5502a;
+    --accent-ink: #fdf8ee;
+    --accent-soft: #f4e2d6;
+    --done: #b3a691;
+    --deal: #96650a;
+    --deal-soft: #f4e8cd;
+    --serif: "Fraunces", Georgia, "Times New Roman", serif;
   }
   @media (prefers-color-scheme: dark) {
     :root {
-      --bg: #1b1a17;
-      --surface: #242320;
-      --ink: #ece9e0;
-      --ink-soft: #a39e8f;
-      --line: #38362f;
-      --accent: #7fb789;
-      --accent-ink: #14281a;
-      --accent-soft: #2a352c;
-      --done: #6e6a5e;
-      --deal: #e8a04c;
-      --deal-soft: #3a2e1e;
+      --bg: #211a13;
+      --surface: #2b231a;
+      --ink: #eee2cf;
+      --ink-soft: #a8977f;
+      --line: #40352a;
+      --accent: #de8557;
+      --accent-ink: #2b1a10;
+      --accent-soft: #3d2b20;
+      --done: #6e6252;
+      --deal: #d9a83f;
+      --deal-soft: #3a3021;
     }
-  }
-  :root[data-theme="dark"] {
-    --bg: #1b1a17; --surface: #242320; --ink: #ece9e0; --ink-soft: #a39e8f;
-    --line: #38362f; --accent: #7fb789; --accent-ink: #14281a;
-    --accent-soft: #2a352c; --done: #6e6a5e;
-    --deal: #e8a04c; --deal-soft: #3a2e1e;
-  }
-  :root[data-theme="light"] {
-    --bg: #fbfaf7; --surface: #ffffff; --ink: #23211c; --ink-soft: #6e6a5e;
-    --line: #e6e3d9; --accent: #2f6b3a; --accent-ink: #ffffff;
-    --accent-soft: #e9f1ea; --done: #a8a294;
-    --deal: #a35200; --deal-soft: #fdeeda;
   }
   * { box-sizing: border-box; }
   body {
     margin: 0;
     background: var(--bg);
     color: var(--ink);
-    font-family: ui-rounded, "SF Pro Rounded", system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.55;
     -webkit-tap-highlight-color: transparent;
   }
-  .wrap { max-width: 34rem; margin: 0 auto; padding: 1rem 1rem 5.5rem; }
+  .wrap { max-width: 34rem; margin: 0 auto; padding: 1.1rem 1rem 5.5rem; }
 
-  header { padding: 0.5rem 0 1rem; }
+  header { text-align: center; padding: 0.6rem 0 1.2rem; }
   .eyebrow {
-    font-size: 0.72rem; font-weight: 700; letter-spacing: 0.09em;
-    text-transform: uppercase; color: var(--accent);
+    font-size: 0.72rem; font-weight: 600; letter-spacing: 0.22em;
+    text-transform: uppercase; color: var(--accent); margin: 0;
   }
-  h1 { font-size: 1.55rem; line-height: 1.2; margin: 0.15rem 0 0.3rem; text-wrap: balance; }
-  .sub { color: var(--ink-soft); font-size: 0.92rem; margin: 0; }
+  h1 {
+    font-family: var(--serif); font-weight: 700;
+    font-size: 1.7rem; line-height: 1.15;
+    margin: 0.2rem 0 0.35rem; text-wrap: balance;
+  }
+  .sub { color: var(--ink-soft); font-size: 0.9rem; margin: 0; font-style: italic; }
+  .rule {
+    display: flex; align-items: center; gap: 0.6rem;
+    color: var(--line); margin: 0.7rem auto 0; max-width: 12rem;
+  }
+  .rule::before, .rule::after { content: ""; flex: 1; border-top: 1px solid var(--line); }
+  .rule span { color: var(--accent); font-size: 0.6rem; }
 
   nav {
     position: fixed; bottom: 0; left: 0; right: 0; z-index: 10;
     background: var(--surface);
     border-top: 1px solid var(--line);
+    box-shadow: 0 -1px 0 var(--bg), 0 -2px 0 var(--line);
     display: flex;
     padding-bottom: env(safe-area-inset-bottom);
   }
   nav button {
     flex: 1; background: none; border: none; cursor: pointer;
-    font: inherit; font-size: 0.8rem; font-weight: 600;
-    color: var(--ink-soft); padding: 0.8rem 0 0.7rem;
+    font: inherit; font-size: 0.72rem; font-weight: 600;
+    color: var(--ink-soft); padding: 0.75rem 0 0.65rem;
     border-top: 3px solid transparent;
+    letter-spacing: 0.02em;
   }
   nav button.active { color: var(--accent); border-top-color: var(--accent); }
   nav button:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
@@ -94,47 +96,69 @@
   .card {
     background: var(--surface);
     border: 1px solid var(--line);
-    border-radius: 12px;
-    padding: 1rem;
-    margin-bottom: 0.9rem;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 3px var(--surface), inset 0 0 0 4px var(--line);
+    padding: 1.15rem;
+    margin-bottom: 0.95rem;
   }
-  h2 { font-size: 1.05rem; margin: 0 0 0.6rem; }
+  h2 {
+    font-family: var(--serif); font-weight: 600;
+    font-size: 1.15rem; margin: 0 0 0.6rem;
+  }
   .cat {
-    font-size: 0.72rem; font-weight: 700; letter-spacing: 0.09em;
+    font-size: 0.7rem; font-weight: 700; letter-spacing: 0.16em;
     text-transform: uppercase; color: var(--ink-soft);
-    margin: 1.1rem 0 0.4rem;
+    margin: 1.15rem 0 0.4rem; text-align: center;
   }
   .cat:first-child { margin-top: 0; }
+  .cat::before, .cat::after { content: " · "; color: var(--line); }
 
-  .progress {
-    display: flex; align-items: center; gap: 0.7rem;
-    margin-bottom: 0.9rem;
+  .kies-card { position: relative; }
+  .kies-card .keuken {
+    font-size: 0.7rem; font-weight: 700; letter-spacing: 0.16em;
+    text-transform: uppercase; color: var(--accent); margin: 0 0 0.15rem;
   }
-  .bar {
-    flex: 1; height: 8px; border-radius: 4px; background: var(--line);
-    overflow: hidden;
+  .kies-card h2 { margin-bottom: 0.3rem; }
+  .kies-card .beschrijving { margin: 0 0 0.7rem; font-size: 0.92rem; color: var(--ink-soft); }
+  .statline {
+    display: flex; gap: 1.1rem; flex-wrap: wrap;
+    font-size: 0.88rem; margin-bottom: 0.85rem;
+    font-variant-numeric: tabular-nums;
   }
-  .bar div { height: 100%; width: 0; background: var(--accent); border-radius: 4px; transition: width 0.25s ease; }
+  .statline strong { font-family: var(--serif); font-size: 1.05rem; }
+  .statline span { color: var(--ink-soft); }
+  .kiesbtn {
+    display: block; width: 100%;
+    background: var(--accent); color: var(--accent-ink);
+    border: none; border-radius: 3px;
+    font: inherit; font-weight: 700; font-size: 0.95rem;
+    padding: 0.65rem; cursor: pointer;
+  }
+  .kiesbtn:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+  .kies-card.gekozen { border-color: var(--accent); box-shadow: inset 0 0 0 3px var(--surface), inset 0 0 0 4px var(--accent); }
+  .kies-card.gekozen .kiesbtn { background: none; color: var(--accent); border: 1px solid var(--accent); cursor: default; }
+  .voorraadnote { font-size: 0.82rem; color: var(--ink-soft); margin: 0.5rem 0 0; font-style: italic; }
+
+  .progress { display: flex; align-items: center; gap: 0.7rem; margin-bottom: 0.9rem; }
+  .bar { flex: 1; height: 7px; border-radius: 0; background: var(--line); overflow: hidden; }
+  .bar div { height: 100%; width: 0; background: var(--accent); transition: width 0.25s ease; }
   @media (prefers-reduced-motion: reduce) { .bar div { transition: none; } }
   .count { font-size: 0.85rem; font-weight: 700; color: var(--ink-soft); font-variant-numeric: tabular-nums; white-space: nowrap; }
 
   ul.check { list-style: none; margin: 0; padding: 0; }
   ul.check li { border-bottom: 1px solid var(--line); }
   ul.check li:last-child { border-bottom: none; }
-  ul.check label {
-    display: flex; align-items: center; gap: 0.75rem;
-    padding: 0.65rem 0.15rem; cursor: pointer;
-  }
+  ul.check label { display: flex; align-items: center; gap: 0.75rem; padding: 0.62rem 0.1rem; cursor: pointer; }
   ul.check input {
     appearance: none; -webkit-appearance: none;
-    width: 1.35rem; height: 1.35rem; flex: none;
-    border: 2px solid var(--ink-soft); border-radius: 7px;
+    width: 1.3rem; height: 1.3rem; flex: none;
+    border: 1.5px solid var(--ink-soft); border-radius: 2px;
     display: grid; place-content: center;
     background: var(--surface); margin: 0; cursor: pointer;
   }
   ul.check input:checked { background: var(--accent); border-color: var(--accent); }
   ul.check input:checked::after {
-    content: ""; width: 0.4rem; height: 0.7rem;
+    content: ""; width: 0.38rem; height: 0.68rem;
     border: solid var(--accent-ink); border-width: 0 2.5px 2.5px 0;
     transform: rotate(45deg) translateY(-1px);
   }
@@ -143,47 +167,36 @@
   ul.check input:checked + span .item { text-decoration: line-through; }
   ul.check label > span { flex: 1; display: flex; align-items: baseline; gap: 0.5rem; }
   ul.check .item { flex: 1; }
-  ul.check .qty { color: var(--ink-soft); font-size: 0.85rem; display: block; }
-  ul.check .price {
-    flex: none; font-weight: 700; font-size: 0.9rem;
-    font-variant-numeric: tabular-nums; color: var(--ink-soft);
-  }
+  ul.check .qty { color: var(--ink-soft); font-size: 0.84rem; display: block; }
+  ul.check .price { flex: none; font-weight: 700; font-size: 0.9rem; font-variant-numeric: tabular-nums; color: var(--ink-soft); }
 
   .totalrow {
     display: flex; justify-content: space-between; align-items: baseline;
-    border-top: 2px solid var(--ink); margin-top: 0.8rem; padding-top: 0.6rem;
+    border-top: 2px solid var(--ink); margin-top: 0.85rem; padding-top: 0.6rem;
     font-weight: 800;
   }
-  .totalrow .amount { font-variant-numeric: tabular-nums; font-size: 1.1rem; }
+  .totalrow .amount { font-family: var(--serif); font-variant-numeric: tabular-nums; font-size: 1.15rem; }
 
-  .resetrow { margin-top: 0.9rem; text-align: center; }
-  .resetrow button {
-    background: none; border: 1px solid var(--line); border-radius: 999px;
-    color: var(--ink-soft); font: inherit; font-size: 0.85rem; font-weight: 600;
-    padding: 0.45rem 1.1rem; cursor: pointer;
+  .plainlist { list-style: none; margin: 0; padding: 0; }
+  .plainlist li {
+    display: flex; justify-content: space-between; gap: 0.6rem;
+    padding: 0.5rem 0.1rem; border-bottom: 1px solid var(--line);
+    font-size: 0.92rem;
   }
-  .resetrow button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .plainlist li:last-child { border-bottom: none; }
+  .plainlist .mut { color: var(--ink-soft); font-size: 0.85rem; }
 
-  ol.steps { margin: 0; padding: 0 0 0 1.4rem; }
-  ol.steps li { padding: 0.35rem 0 0.35rem 0.3rem; }
-  ol.steps li::marker { font-weight: 700; color: var(--accent); }
+  ol.steps { margin: 0; padding: 0 0 0 1.5rem; }
+  ol.steps li { padding: 0.4rem 0 0.4rem 0.3rem; }
+  ol.steps li::marker { font-family: var(--serif); font-weight: 700; color: var(--accent); }
 
   .note {
-    background: var(--accent-soft); border-radius: 10px;
-    padding: 0.7rem 0.9rem; font-size: 0.9rem; margin-top: 0.8rem;
+    background: var(--accent-soft); border-radius: 3px;
+    padding: 0.7rem 0.9rem; font-size: 0.9rem; margin-top: 0.85rem;
   }
   .note strong { color: var(--accent); }
 
-  .dayrow {
-    display: flex; gap: 0.75rem; align-items: baseline;
-    padding: 0.55rem 0; border-bottom: 1px solid var(--line);
-  }
-  .dayrow:last-child { border-bottom: none; }
-  .day { flex: none; width: 2.4rem; font-weight: 800; color: var(--accent); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; }
-  .dayrow p { margin: 0; font-size: 0.92rem; }
-  .dayrow small { color: var(--ink-soft); display: block; }
-
-  .bonuscard { border-color: var(--deal); }
+  .bonuscard { border-color: var(--deal); box-shadow: inset 0 0 0 3px var(--surface), inset 0 0 0 4px var(--deal); }
   .bonuscard h2 { color: var(--deal); }
   .bonusrow {
     display: flex; justify-content: space-between; align-items: baseline; gap: 0.6rem;
@@ -193,189 +206,459 @@
   .bonusrow small { color: var(--ink-soft); display: block; }
   .mech {
     flex: none; background: var(--deal-soft); color: var(--deal);
-    font-weight: 800; font-size: 0.78rem; border-radius: 999px;
-    padding: 0.15rem 0.6rem; white-space: nowrap;
+    font-weight: 800; font-size: 0.76rem; border-radius: 2px;
+    padding: 0.15rem 0.55rem; white-space: nowrap;
+    letter-spacing: 0.03em;
   }
   .bonus-badge {
     display: inline-block; background: var(--deal-soft); color: var(--deal);
-    font-weight: 800; font-size: 0.7rem; border-radius: 999px;
-    padding: 0.05rem 0.45rem; margin-left: 0.35rem; vertical-align: 1px;
+    font-weight: 800; font-size: 0.68rem; border-radius: 2px;
+    padding: 0.05rem 0.4rem; margin-left: 0.35rem; vertical-align: 1px;
+    letter-spacing: 0.04em;
   }
-  .bonus-updated { color: var(--ink-soft); font-size: 0.75rem; margin: 0.5rem 0 0; }
+  .slain {
+    background: var(--deal-soft); border-radius: 3px;
+    padding: 0.7rem 0.9rem; font-size: 0.9rem; margin-top: 0.85rem;
+  }
+  .slain strong { color: var(--deal); }
+  .bonus-updated { color: var(--ink-soft); font-size: 0.76rem; margin: 0.55rem 0 0; text-align: center; font-style: italic; }
+  .bonus-updated.stale { color: var(--deal); font-weight: 700; font-style: normal; }
+
+  .leeg { text-align: center; color: var(--ink-soft); font-style: italic; padding: 1.2rem 0; }
 </style>
+</head>
+<body>
 
 <div class="wrap">
   <header>
-    <p class="eyebrow">Weekmenu · ma 27 – do 30 juli · alleen avondeten</p>
-    <h1>Chili con carne bowl</h1>
-    <p class="sub">4 porties · ~25 min actief · ±55–60 g eiwit · ±€8,80 per portie</p>
+    <p class="eyebrow">· Weekmenu ·</p>
+    <h1 id="paginatitel">Weekmenu</h1>
+    <p class="sub" id="paginasub">4 porties avondeten, ma t/m do</p>
+    <div class="rule"><span>◆</span></div>
   </header>
 
-  <section id="tab-lijst">
-    <div class="card bonuscard" id="bonusbox" hidden>
-      <h2>🏷️ Nu in de bonus</h2>
-      <div id="bonuslist"></div>
-      <p class="bonus-updated" id="bonusdate"></p>
-    </div>
-    <div class="card">
-      <div class="progress">
-        <div class="bar"><div id="pbar"></div></div>
-        <span class="count" id="pcount">0/15</span>
-      </div>
-
-      <p class="cat">Vlees &amp; zuivel</p>
-      <ul class="check">
-        <li><label><input type="checkbox" data-k="gehakt"><span><span class="item">Mager rundergehakt<span class="qty">2× 500 g · AH</span></span><span class="price">€13,58</span></span></label></li>
-        <li><label><input type="checkbox" data-k="yoghurt"><span><span class="item">Yoghurt Griekse stijl 10%<span class="qty">1 kg · Zaanse Hoeve</span></span><span class="price">€1,89</span></span></label></li>
-        <li><label><input type="checkbox" data-k="kaas"><span><span class="item">Geraspte 30+ kaas<span class="qty">200 g · Zaanse Hoeve</span></span><span class="price">€2,19</span></span></label></li>
-      </ul>
-
-      <p class="cat">Blik &amp; droog</p>
-      <ul class="check">
-        <li><label><input type="checkbox" data-k="kidney"><span><span class="item">Kidneybonen<span class="qty">2× 400 g · AH Terra</span></span><span class="price">€1,30</span></span></label></li>
-        <li><label><input type="checkbox" data-k="zwartebonen"><span><span class="item">Zwarte bonen<span class="qty">400 g · AH Terra</span></span><span class="price">€1,05</span></span></label></li>
-        <li><label><input type="checkbox" data-k="tomaat"><span><span class="item">Tomatenblokjes<span class="qty">2× 390 g · Heinz</span></span><span class="price">€2,70</span></span></label></li>
-        <li><label><input type="checkbox" data-k="mais"><span><span class="item">Maïskorrels<span class="qty">150 g blikje</span></span><span class="price">€0,99</span></span></label></li>
-        <li><label><input type="checkbox" data-k="kruiden"><span><span class="item">Chili con carne kruidenmix<span class="qty">Santa Maria</span></span><span class="price">€1,09</span></span></label></li>
-        <li><label><input type="checkbox" data-k="rijst"><span><span class="item">Zilvervliesrijst<span class="qty">1 kg · AH (blijft over)</span></span><span class="price">€1,45</span></span></label></li>
-      </ul>
-
-      <p class="cat">Groente &amp; fruit</p>
-      <ul class="check">
-        <li><label><input type="checkbox" data-k="uien"><span><span class="item">Gele uien<span class="qty">3 stuks</span></span><span class="price">€1,09</span></span></label></li>
-        <li><label><input type="checkbox" data-k="knoflook"><span><span class="item">Knoflook<span class="qty">2 bollen (blijft over)</span></span><span class="price">€1,45</span></span></label></li>
-        <li><label><input type="checkbox" data-k="paprika"><span><span class="item">Paprika rood<span class="qty">2 stuks</span></span><span class="price">€1,98</span></span></label></li>
-        <li><label><input type="checkbox" data-k="avocado"><span><span class="item">Avocado eetrijp<span class="qty">2 stuks</span></span><span class="price">€2,99</span></span></label></li>
-        <li><label><input type="checkbox" data-k="limoen"><span><span class="item">Limoenen<span class="qty">4 stuks (goedkoper dan 2 los)</span></span><span class="price">€1,45</span></span></label></li>
-        <li><label><input type="checkbox" data-k="koriander"><span><span class="item">Verse koriander<span class="qty">optioneel</span></span><span class="price">±€1,10</span></span></label></li>
-      </ul>
-
-      <div class="totalrow"><span>Totaal</span><span class="amount">± €35,30</span></div>
-      <div class="note"><strong>Echte weekkosten lager:</strong> rijst, kruiden, knoflook en halve pot yoghurt gaan meerdere weken mee. Netto ±€8 per avondmaal, incl. 250 g gehakt.</div>
-
-      <div class="resetrow"><button id="reset" type="button">Lijst leegmaken</button></div>
-    </div>
-  </section>
-
-  <section id="tab-recept" hidden>
-    <div class="card">
-      <h2>Bereiding — 4 porties</h2>
-      <ol class="steps">
-        <li>Rijst koken (350 g droog), afspoelen, laten afkoelen.</li>
-        <li>Ui + knoflook fruiten, gehakt rulbakken.</li>
-        <li>Paprika erbij, 3 min meebakken.</li>
-        <li>Kruiden, tomatenblokjes, afgespoelde bonen en maïs erbij. Minstens 15 min zachtjes pruttelen — langer mag, wordt beter.</li>
-        <li>Verdelen over 4 bakjes: rijst onderin, chili erop. Koelkast in.</li>
-      </ol>
-      <div class="note"><strong>Per avond:</strong> bakje 3–4 min in magnetron. Topping vers: flinke lepel Griekse yoghurt, hand kaas, ½ avocado, kneep limoen.</div>
-      <div class="note"><strong>Portie-anker:</strong> kwart van de pan = ±250 g gehakt + bonen ≈ 55–60 g eiwit. Geen weegschaal nodig.</div>
-    </div>
-  </section>
-
-  <section id="tab-week" hidden>
-    <div class="card">
-      <h2>Avondeten</h2>
-      <div class="dayrow"><span class="day">Ma</span><p>Chili bowl <small>topping: yoghurt, kaas, ½ avocado, limoen</small></p></div>
-      <div class="dayrow"><span class="day">Di</span><p>Chili bowl <small>zelfde topping</small></p></div>
-      <div class="dayrow"><span class="day">Wo</span><p>Chili bowl <small>½ avocado van di gebruiken</small></p></div>
-      <div class="dayrow"><span class="day">Do</span><p>Chili bowl <small>laatste bakje</small></p></div>
-      <div class="note"><strong>Focus deze fase:</strong> alleen avondeten. Ontbijtshake blijft zoals het is; lunch pakken we later op.</div>
-    </div>
-  </section>
+  <section id="tab-kies"><div id="kies-inhoud"><p class="leeg">Weekmenu laden…</p></div></section>
+  <section id="tab-lijst" hidden><div id="lijst-inhoud"></div></section>
+  <section id="tab-recept" hidden><div id="recept-inhoud"></div></section>
+  <section id="tab-voorraad" hidden><div id="voorraad-inhoud"></div></section>
+  <section id="tab-historie" hidden><div id="historie-inhoud"></div></section>
 
   <nav>
-    <button type="button" class="active" data-tab="tab-lijst">Boodschappen</button>
+    <button type="button" class="active" data-tab="tab-kies">Kies</button>
+    <button type="button" data-tab="tab-lijst">Lijst</button>
     <button type="button" data-tab="tab-recept">Recept</button>
-    <button type="button" data-tab="tab-week">Weekplan</button>
+    <button type="button" data-tab="tab-voorraad">Voorraad</button>
+    <button type="button" data-tab="tab-historie">Historie</button>
   </nav>
 </div>
 
 <script>
-  var KEY = "weekmenu-2026-07-27";
-  var boxes = Array.prototype.slice.call(document.querySelectorAll('ul.check input'));
-  var saved = {};
-  try { saved = JSON.parse(localStorage.getItem(KEY) || "{}"); } catch (e) {}
+  'use strict';
 
-  function save() {
-    var state = {};
-    boxes.forEach(function (b) { state[b.dataset.k] = b.checked; });
-    try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {}
+  function euro(centen) { return '€' + (centen / 100).toFixed(2).replace('.', ','); }
+  function isObj(v) { return v !== null && typeof v === 'object' && Object.getPrototypeOf(v) === Object.prototype; }
+  function lees(key, fallback) {
+    try {
+      var v = JSON.parse(localStorage.getItem(key));
+      return v === null || v === undefined ? fallback : v;
+    } catch (e) { return fallback; }
   }
-  function updateProgress() {
-    var done = boxes.filter(function (b) { return b.checked; }).length;
-    document.getElementById('pcount').textContent = done + "/" + boxes.length;
-    document.getElementById('pbar').style.width = (done / boxes.length * 100) + "%";
+  function bewaar(key, val) {
+    try { localStorage.setItem(key, JSON.stringify(val)); } catch (e) {}
   }
-  boxes.forEach(function (b) {
-    if (saved[b.dataset.k]) b.checked = true;
-    b.addEventListener('change', function () { save(); updateProgress(); });
-  });
-  updateProgress();
+  function el(tag, cls, text) {
+    var n = document.createElement(tag);
+    if (cls) n.className = cls;
+    if (text !== undefined) n.textContent = text;
+    return n;
+  }
 
-  document.getElementById('reset').addEventListener('click', function () {
-    boxes.forEach(function (b) { b.checked = false; });
-    save(); updateProgress();
-  });
-
+  // Tabs
   var tabs = document.querySelectorAll('nav button');
   tabs.forEach(function (t) {
     t.addEventListener('click', function () {
       tabs.forEach(function (o) { o.classList.remove('active'); });
       t.classList.add('active');
-      ['tab-lijst', 'tab-recept', 'tab-week'].forEach(function (id) {
+      ['tab-kies', 'tab-lijst', 'tab-recept', 'tab-voorraad', 'tab-historie'].forEach(function (id) {
         document.getElementById(id).hidden = (id !== t.dataset.tab);
       });
       window.scrollTo(0, 0);
     });
   });
 
-  // Bonusdata: dagelijks ververst door GitHub Action (scripts/update_bonus.py -> bonus.json)
-  fetch('bonus.json', { cache: 'no-store' })
-    .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
-    .then(function (data) {
-      var deals = data.items.filter(function (i) { return i.isBonus; });
-      if (!deals.length) return;
+  var week = null, bonus = null, pantry = null, historie = null;
 
-      var list = document.getElementById('bonuslist');
+  function keuzeKey() { return 'keuze:' + week.weekId; }
+  function gekozenOptie() {
+    if (!week) return null;
+    var k = lees(keuzeKey(), null);
+    if (typeof k !== 'string') return null;
+    for (var i = 0; i < week.opties.length; i++) {
+      if (week.opties[i].key === k) return week.opties[i];
+    }
+    return null;
+  }
+
+  function bonusDeals() {
+    if (!bonus || !Array.isArray(bonus.items)) return [];
+    return bonus.items.filter(function (i) { return i && typeof i === 'object' && i.isBonus === true; });
+  }
+
+  function normaliseerWeek(data) {
+    if (!isObj(data) || !Array.isArray(data.opties)) return null;
+    data.opties = data.opties.filter(function (opt) {
+      return isObj(opt) &&
+        typeof opt.key === 'string' &&
+        typeof opt.naam === 'string' &&
+        Array.isArray(opt.ingredienten) &&
+        Array.isArray(opt.uitVoorraad) &&
+        Array.isArray(opt.recept);
+    }).map(function (opt) {
+      opt.ingredienten = opt.ingredienten.filter(isObj).map(function (ing) {
+        if (typeof ing.prijs !== 'number' || !Number.isFinite(ing.prijs)) ing.prijs = 0;
+        ing.prijsCenten = Math.round(ing.prijs * 100);
+        return ing;
+      });
+      opt.uitVoorraad = opt.uitVoorraad.filter(isObj);
+      opt.recept = opt.recept.map(function (stap) { return String(stap); });
+      return opt;
+    });
+    return data;
+  }
+
+  function renderAlles() {
+    try { renderKies(); } catch (e) {}
+    try { renderLijst(); } catch (e) {}
+    try { renderRecept(); } catch (e) {}
+    try { renderVoorraad(); } catch (e) {}
+    try { renderHistorie(); } catch (e) {}
+  }
+
+  // ---- Kies-tab ----
+  function renderKies() {
+    var box = document.getElementById('kies-inhoud');
+    box.textContent = '';
+    if (!week) { box.appendChild(el('p', 'leeg', 'Weekmenu kon niet geladen worden.')); return; }
+
+    document.getElementById('paginatitel').textContent = 'Kies je gerecht';
+    document.getElementById('paginasub').textContent = week.label + ' · 4 porties';
+
+    var gekozen = gekozenOptie();
+    var dealKeys = {};
+    bonusDeals().forEach(function (d) { dealKeys[d.key] = true; });
+
+    week.opties.forEach(function (opt) {
+      var card = el('div', 'card kies-card' + (gekozen && gekozen.key === opt.key ? ' gekozen' : ''));
+      card.appendChild(el('p', 'keuken', opt.keuken));
+      card.appendChild(el('h2', null, opt.naam));
+      card.appendChild(el('p', 'beschrijving', opt.beschrijving));
+
+      var totaalCenten = 0, heeftBonus = false;
+      opt.ingredienten.forEach(function (ing) {
+        totaalCenten += ing.prijsCenten;
+        if (dealKeys[ing.key]) heeftBonus = true;
+      });
+
+      var stats = el('div', 'statline');
+      var s1 = el('span'); s1.appendChild(el('strong', null, euro(totaalCenten))); s1.appendChild(document.createTextNode(' totaal'));
+      var s2 = el('span'); s2.appendChild(el('strong', null, euro(Math.round(totaalCenten / 4)))); s2.appendChild(document.createTextNode(' p.p.'));
+      var s3 = el('span'); s3.appendChild(el('strong', null, opt.eiwitPerPortie + ' g')); s3.appendChild(document.createTextNode(' eiwit'));
+      var s4 = el('span'); s4.appendChild(el('strong', null, opt.actieveTijd)); s4.appendChild(document.createTextNode(' koken'));
+      stats.appendChild(s1); stats.appendChild(s2); stats.appendChild(s3); stats.appendChild(s4);
+      card.appendChild(stats);
+
+      if (heeftBonus) {
+        var b = el('p', 'voorraadnote');
+        b.appendChild(el('span', 'bonus-badge', 'BONUS'));
+        b.appendChild(document.createTextNode(' Eén of meer ingrediënten nu in de aanbieding.'));
+        card.appendChild(b);
+      }
+
+      var btn = el('button', 'kiesbtn', gekozen && gekozen.key === opt.key ? '✓ Gekozen voor deze week' : 'Kies dit gerecht');
+      btn.type = 'button';
+      btn.addEventListener('click', function () {
+        bewaar(keuzeKey(), opt.key);
+        var lokaal = lees('historie-lokaal', []);
+        if (!Array.isArray(lokaal)) lokaal = [];
+        lokaal = lokaal.filter(function (h) { return isObj(h) && h.weekId !== week.weekId; });
+        lokaal.push({
+          weekId: week.weekId, gerecht: opt.naam, keuken: opt.keuken,
+          prijsPerPortieCenten: Math.round(totaalCenten / 4), eiwitPerPortie: opt.eiwitPerPortie
+        });
+        bewaar('historie-lokaal', lokaal);
+        renderAlles();
+      });
+      card.appendChild(btn);
+
+      if (opt.uitVoorraad.length) {
+        card.appendChild(el('p', 'voorraadnote', 'Uit voorraad: ' + opt.uitVoorraad.map(function (v) { return v.naam; }).join(', ') + ' — al in huis, kost niks extra.'));
+      }
+      box.appendChild(card);
+    });
+  }
+
+  // ---- Lijst-tab ----
+  function renderLijst() {
+    var box = document.getElementById('lijst-inhoud');
+    box.textContent = '';
+    if (!week) { box.appendChild(el('p', 'leeg', 'Weekmenu kon niet geladen worden.')); return; }
+    var opt = gekozenOptie();
+
+    // Bonuskaart altijd tonen (ook zonder gekozen gerecht)
+    var deals = bonusDeals();
+    var bcard = el('div', 'card bonuscard');
+    bcard.appendChild(el('h2', null, '🏷 Nu in de bonus'));
+    if (deals.length) {
       deals.forEach(function (d) {
-        var row = document.createElement('div');
-        row.className = 'bonusrow';
-        var left = document.createElement('span');
-        var name = document.createElement('span');
-        name.textContent = d.title + ' (' + (d.size || '') + ')';
-        var priceInfo = document.createElement('small');
-        priceInfo.textContent = d.bonusPrice
-          ? '€' + d.price.toFixed(2).replace('.', ',') + ' → €' + d.bonusPrice.toFixed(2).replace('.', ',')
-          : 'normaal €' + d.price.toFixed(2).replace('.', ',');
-        left.appendChild(name);
-        left.appendChild(priceInfo);
-        var mech = document.createElement('span');
-        mech.className = 'mech';
-        mech.textContent = d.mechanism || 'bonus';
-        row.appendChild(left);
-        row.appendChild(mech);
-        list.appendChild(row);
+        try {
+          var row = el('div', 'bonusrow');
+          var left = el('span');
+          left.appendChild(el('span', null, String(d.title || 'Onbekend product') + (d.size ? ' (' + String(d.size) + ')' : '')));
+          var hasP = typeof d.price === 'number' && Number.isFinite(d.price);
+          var hasB = typeof d.bonusPrice === 'number' && Number.isFinite(d.bonusPrice);
+          if (hasP || hasB) {
+            var pi = el('small');
+            if (hasP && hasB) pi.textContent = euro(Math.round(d.price * 100)) + ' → ' + euro(Math.round(d.bonusPrice * 100));
+            else if (hasB) pi.textContent = 'bonus ' + euro(Math.round(d.bonusPrice * 100));
+            else pi.textContent = 'normaal ' + euro(Math.round(d.price * 100));
+            left.appendChild(pi);
+          }
+          row.appendChild(left);
+          row.appendChild(el('span', 'mech', d.mechanism || 'bonus'));
+          bcard.appendChild(row);
+        } catch (e) { /* regel overslaan */ }
       });
-
-      var when = new Date(data.updated);
-      document.getElementById('bonusdate').textContent =
-        'Prijzen gecheckt: ' + when.toLocaleDateString('nl-NL', { day: 'numeric', month: 'long' });
-      document.getElementById('bonusbox').hidden = false;
-
-      // Badge op lijstitems waarvan een variant in de bonus is
-      var bonusKeys = {};
-      deals.forEach(function (d) { bonusKeys[d.key] = true; });
-      boxes.forEach(function (b) {
-        if (bonusKeys[b.dataset.k]) {
-          var item = b.parentElement.querySelector('.item');
-          var badge = document.createElement('span');
-          badge.className = 'bonus-badge';
-          badge.textContent = 'BONUS';
-          item.insertBefore(badge, item.querySelector('.qty'));
+      var houdbareDeals = deals.filter(function (d) { return d.houdbaar === true; });
+      if (houdbareDeals.length) {
+        var s = el('div', 'slain');
+        var st = el('strong', null, 'Sla in voor later: ');
+        s.appendChild(st);
+        s.appendChild(document.createTextNode(houdbareDeals.map(function (d) { return String(d.title || ''); }).join(', ') + ' — lang houdbaar, komt terug in volgende weekmenu’s.'));
+        bcard.appendChild(s);
+      }
+    } else if (bonus && Array.isArray(bonus.items)) {
+      bcard.appendChild(el('p', 'leeg', 'Geen gevolgde producten in de bonus.'));
+    } else {
+      bcard.appendChild(el('p', 'leeg', 'Bonusdata niet beschikbaar.'));
+    }
+    if (bonus && bonus.updated) {
+      var when = new Date(bonus.updated);
+      if (Number.isFinite(when.getTime())) {
+        var fmt = when.toLocaleDateString('nl-NL', { day: 'numeric', month: 'long' });
+        var dl = el('p', 'bonus-updated');
+        if (Date.now() - when.getTime() > 3 * 24 * 60 * 60 * 1000) {
+          dl.textContent = 'Laatste check kan verouderd zijn: ' + fmt;
+          dl.classList.add('stale');
+        } else {
+          dl.textContent = 'Prijzen gecheckt: ' + fmt;
         }
+        bcard.appendChild(dl);
+      }
+    }
+    box.appendChild(bcard);
+
+    if (!opt) {
+      var c = el('div', 'card');
+      c.appendChild(el('p', 'leeg', 'Kies eerst een gerecht — dan verschijnt hier je boodschappenlijst.'));
+      box.appendChild(c);
+      return;
+    }
+
+    var dealKeys = {};
+    deals.forEach(function (d) { dealKeys[d.key] = true; });
+
+    var card = el('div', 'card');
+    card.appendChild(el('h2', null, 'Boodschappen — ' + opt.naam));
+
+    var prog = el('div', 'progress');
+    var bar = el('div', 'bar'); var barfill = el('div'); bar.appendChild(barfill);
+    var cnt = el('span', 'count');
+    prog.appendChild(bar); prog.appendChild(cnt);
+    card.appendChild(prog);
+
+    var lijstKey = 'lijst:' + week.weekId + ':' + opt.key;
+    var state = lees(lijstKey, {});
+    if (!isObj(state)) state = {};
+
+    var groepen = [
+      { titel: 'Vlees & zuivel', cats: ['vlees', 'zuivel'] },
+      { titel: 'Groente', cats: ['groente'] },
+      { titel: 'Blik & droog', cats: ['overig'] }
+    ];
+    var boxes = [];
+    var totaalCenten = 0;
+
+    groepen.forEach(function (g) {
+      var items = opt.ingredienten.filter(function (ing) { return g.cats.indexOf(ing.cat) !== -1; });
+      if (!items.length) return;
+      card.appendChild(el('p', 'cat', g.titel));
+      var ul = el('ul', 'check');
+      items.forEach(function (ing) {
+        totaalCenten += ing.prijsCenten;
+        var li = el('li');
+        var label = el('label');
+        var input = document.createElement('input');
+        input.type = 'checkbox';
+        input.checked = state[ing.key] === true;
+        var span = el('span');
+        var item = el('span', 'item');
+        item.appendChild(document.createTextNode(ing.naam));
+        if (dealKeys[ing.key]) item.appendChild(el('span', 'bonus-badge', 'BONUS'));
+        item.appendChild(el('span', 'qty', ing.info));
+        span.appendChild(item);
+        span.appendChild(el('span', 'price', euro(ing.prijsCenten)));
+        input.addEventListener('change', function () {
+          state[ing.key] = input.checked;
+          bewaar(lijstKey, state);
+          updateProg();
+        });
+        label.appendChild(input); label.appendChild(span);
+        li.appendChild(label); ul.appendChild(li);
+        boxes.push(input);
       });
-    })
-    .catch(function () { /* geen bonusdata beschikbaar — lijst werkt gewoon */ });
+      card.appendChild(ul);
+    });
+
+    var tr = el('div', 'totalrow');
+    tr.appendChild(el('span', null, 'Totaal'));
+    tr.appendChild(el('span', 'amount', '± ' + euro(totaalCenten)));
+    card.appendChild(tr);
+
+    if (opt.uitVoorraad.length) {
+      card.appendChild(el('p', 'cat', 'Al in huis'));
+      var pl = el('ul', 'plainlist');
+      opt.uitVoorraad.forEach(function (v) {
+        var li = el('li');
+        li.appendChild(el('span', null, v.naam));
+        li.appendChild(el('span', 'mut', v.info));
+        pl.appendChild(li);
+      });
+      card.appendChild(pl);
+    }
+
+    function updateProg() {
+      var done = boxes.filter(function (b) { return b.checked; }).length;
+      cnt.textContent = done + '/' + boxes.length;
+      barfill.style.width = (boxes.length ? done / boxes.length * 100 : 0) + '%';
+    }
+    updateProg();
+    box.appendChild(card);
+  }
+
+  // ---- Recept-tab ----
+  function renderRecept() {
+    var box = document.getElementById('recept-inhoud');
+    box.textContent = '';
+    var opt = week ? gekozenOptie() : null;
+    var card = el('div', 'card');
+    if (!opt) {
+      card.appendChild(el('p', 'leeg', 'Kies eerst een gerecht op het Kies-tabblad.'));
+      box.appendChild(card);
+      return;
+    }
+    card.appendChild(el('h2', null, opt.naam + ' — 4 porties'));
+    var ol = el('ol', 'steps');
+    opt.recept.forEach(function (stap) { ol.appendChild(el('li', null, stap)); });
+    card.appendChild(ol);
+    var n = el('div', 'note');
+    n.appendChild(el('strong', null, 'Per avond: '));
+    n.appendChild(document.createTextNode(opt.avondNotitie));
+    card.appendChild(n);
+    box.appendChild(card);
+  }
+
+  // ---- Voorraad-tab ----
+  function renderVoorraad() {
+    var box = document.getElementById('voorraad-inhoud');
+    box.textContent = '';
+    var card = el('div', 'card');
+    card.appendChild(el('h2', null, 'In huis'));
+    if (pantry && Array.isArray(pantry.items) && pantry.items.length) {
+      var ul = el('ul', 'plainlist');
+      pantry.items.forEach(function (p) {
+        if (!isObj(p)) return;
+        var li = el('li');
+        var left = el('span');
+        left.appendChild(document.createTextNode(String(p.naam || '')));
+        left.appendChild(el('span', 'mut', ' ' + String(p.hoeveelheid || '')));
+        li.appendChild(left);
+        li.appendChild(el('span', 'mut', String(p.houdbaar || '')));
+        ul.appendChild(li);
+      });
+      card.appendChild(ul);
+      if (pantry.updated) card.appendChild(el('p', 'bonus-updated', 'Bijgewerkt: ' + String(pantry.updated)));
+    } else {
+      card.appendChild(el('p', 'leeg', 'Geen voorraaddata beschikbaar.'));
+    }
+    var n = el('div', 'note');
+    n.appendChild(el('strong', null, 'Zo werkt het: '));
+    n.appendChild(document.createTextNode('deze lijst wordt bij elke weekplanning bijgewerkt. Wat in huis is, rekent niet mee in de prijs van nieuwe gerechten.'));
+    card.appendChild(n);
+    box.appendChild(card);
+  }
+
+  // ---- Historie-tab ----
+  function renderHistorie() {
+    var box = document.getElementById('historie-inhoud');
+    box.textContent = '';
+    var card = el('div', 'card');
+    card.appendChild(el('h2', null, 'Gekozen gerechten'));
+
+    var repo = (historie && Array.isArray(historie.weken)) ? historie.weken.filter(isObj) : [];
+    var lokaal = lees('historie-lokaal', []);
+    if (!Array.isArray(lokaal)) lokaal = [];
+    lokaal = lokaal.filter(isObj);
+
+    var perWeek = {};
+    repo.forEach(function (h) { perWeek[h.weekId] = h; });
+    lokaal.forEach(function (h) { perWeek[h.weekId] = h; });
+    var alles = Object.keys(perWeek).sort().reverse().map(function (k) { return perWeek[k]; });
+
+    if (!alles.length) {
+      card.appendChild(el('p', 'leeg', 'Nog geen historie.'));
+    } else {
+      var ul = el('ul', 'plainlist');
+      alles.forEach(function (h) {
+        var li = el('li');
+        var left = el('span');
+        left.appendChild(document.createTextNode(String(h.gerecht || '')));
+        left.appendChild(el('span', 'mut', ' · ' + String(h.keuken || '')));
+        li.appendChild(left);
+        var rechts = 'wk ' + String(h.weekId || '');
+        var prijsPerPortieCenten = null;
+        if (typeof h.prijsPerPortieCenten === 'number' && Number.isFinite(h.prijsPerPortieCenten)) {
+          prijsPerPortieCenten = Math.round(h.prijsPerPortieCenten);
+        } else if (typeof h.prijsPerPortie === 'number' && Number.isFinite(h.prijsPerPortie)) {
+          prijsPerPortieCenten = Math.round(h.prijsPerPortie * 100);
+        }
+        if (prijsPerPortieCenten !== null) rechts += ' · ' + euro(prijsPerPortieCenten) + ' p.p.';
+        li.appendChild(el('span', 'mut', rechts));
+        ul.appendChild(li);
+      });
+      card.appendChild(ul);
+    }
+    box.appendChild(card);
+  }
+
+  // ---- Data laden ----
+  function laad(url) {
+    return fetch(url, { cache: 'no-store' }).then(function (r) {
+      if (!r.ok) throw new Error(url + ': ' + r.status);
+      return r.json();
+    });
+  }
+  Promise.allSettled([
+    laad('data/week.json'),
+    laad('bonus.json'),
+    laad('data/pantry.json'),
+    laad('data/history.json')
+  ]).then(function (res) {
+    if (res[0].status === 'fulfilled') week = normaliseerWeek(res[0].value);
+    if (res[1].status === 'fulfilled' && isObj(res[1].value)) bonus = res[1].value;
+    if (res[2].status === 'fulfilled' && isObj(res[2].value)) pantry = res[2].value;
+    if (res[3].status === 'fulfilled' && isObj(res[3].value)) historie = res[3].value;
+    renderAlles();
+  });
 </script>
 </body>
 </html>

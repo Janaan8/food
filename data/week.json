@@ -1,0 +1,118 @@
+{
+  "weekId": "2026-08-03",
+  "label": "Week van ma 3 t/m do 6 augustus",
+  "opties": [
+    {
+      "key": "hollands",
+      "naam": "Ovenschotel kip, prei & aardappel",
+      "keuken": "Hollands",
+      "beschrijving": "Kipdijfilet met prei en kruimige aardappel uit de oven, gegratineerd met kaas. Comfortfood dat perfect opwarmt.",
+      "eiwitPerPortie": 45,
+      "actieveTijd": "25 min",
+      "ingredienten": [
+        { "key": "kipdij", "naam": "Kipdijfilet", "info": "770 g · AH Scharrel", "prijs": 8.85, "cat": "vlees" },
+        { "key": "aardappel", "naam": "Kruimige aardappelen", "info": "2× 1 kg", "prijs": 2.98, "cat": "groente" },
+        { "key": "prei", "naam": "Prei", "info": "3 stuks", "prijs": 2.07, "cat": "groente" },
+        { "key": "kookroom", "naam": "Kookroom", "info": "250 ml", "prijs": 0.99, "cat": "zuivel" },
+        { "key": "kaas", "naam": "Geraspte 30+ kaas", "info": "200 g · Zaanse Hoeve", "prijs": 2.19, "cat": "zuivel" }
+      ],
+      "uitVoorraad": [
+        { "naam": "Ui", "info": "1 over van vorige week" },
+        { "naam": "Knoflook", "info": "voorraad" }
+      ],
+      "recept": [
+        "Aardappelen schillen, in blokjes, 10 min voorkoken.",
+        "Kipdij in stukken, kruiden met peper/zout, aanbakken tot goudbruin.",
+        "Prei in ringen, ui snipperen, 5 min meebakken met knoflook.",
+        "Alles in ovenschaal, kookroom erover, kaas erop. 25 min op 200 °C.",
+        "Verdelen over 4 bakjes zodra afgekoeld."
+      ],
+      "avondNotitie": "Bakje 3–4 min in magnetron. Kwart van de schaal = ±190 g kip ≈ 45 g eiwit."
+    },
+    {
+      "key": "oosters",
+      "naam": "Kip teriyaki met rijst & broccoli",
+      "keuken": "Oosters",
+      "beschrijving": "Zelfgemaakte teriyaki van sojasaus en honing — die flessen gaan maanden mee en tellen als voorraad-opbouw.",
+      "eiwitPerPortie": 48,
+      "actieveTijd": "25 min",
+      "ingredienten": [
+        { "key": "kipdij", "naam": "Kipdijfilet", "info": "770 g · AH Scharrel", "prijs": 8.85, "cat": "vlees" },
+        { "key": "sojasaus", "naam": "Sojasaus", "info": "250 ml · blijft over", "prijs": 1.99, "cat": "overig" },
+        { "key": "honing", "naam": "Vloeibare honing", "info": "500 g · blijft over", "prijs": 2.29, "cat": "overig" },
+        { "key": "broccoliroosjes", "naam": "Broccoliroosjes", "info": "2× 450 g", "prijs": 2.98, "cat": "groente" },
+        { "key": "bosui", "naam": "Bosui", "info": "1 bosje", "prijs": 0.99, "cat": "groente" }
+      ],
+      "uitVoorraad": [
+        { "naam": "Zilvervliesrijst", "info": "±650 g over — genoeg voor 4 porties" },
+        { "naam": "Knoflook", "info": "voorraad" }
+      ],
+      "recept": [
+        "Rijst koken (325 g droog), afspoelen, laten afkoelen.",
+        "Saus: 6 el sojasaus + 3 el honing + knoflook, even inkoken.",
+        "Kipdij in stukken, aanbakken tot goudbruin.",
+        "Broccoli 4 min meeroerbakken, saus erbij, glanzend laten worden.",
+        "Bakjes: rijst onderin, kip-broccoli erop, bosui erover."
+      ],
+      "avondNotitie": "Bakje 3–4 min in magnetron. ±190 g kip per portie ≈ 48 g eiwit met de rijst erbij."
+    },
+    {
+      "key": "mexicaans",
+      "naam": "Burrito bowls met kip",
+      "keuken": "Mexicaans",
+      "beschrijving": "Zoals de chili maar dan met kip: bowl van rijst, bonen, maïs en gekruide kipreepjes. Wrap erbij voor de variatie.",
+      "eiwitPerPortie": 46,
+      "actieveTijd": "20 min",
+      "ingredienten": [
+        { "key": "kipdij", "naam": "Kipdijfilet reepjes", "info": "2× 350 g · AH Scharrel", "prijs": 9.98, "cat": "vlees" },
+        { "key": "burritokruiden", "naam": "Burritokruiden", "info": "Santa Maria", "prijs": 1.09, "cat": "overig" },
+        { "key": "zwartebonen", "naam": "Zwarte bonen", "info": "400 g · AH Terra", "prijs": 1.05, "cat": "overig" },
+        { "key": "mais", "naam": "Maïskorrels", "info": "150 g blikje", "prijs": 0.99, "cat": "overig" },
+        { "key": "tomaat", "naam": "Tomatenblokjes", "info": "390 g · Heinz", "prijs": 1.35, "cat": "overig" },
+        { "key": "paprika", "naam": "Paprika rood", "info": "2 stuks", "prijs": 1.98, "cat": "groente" },
+        { "key": "wraps", "naam": "Tortilla wraps large", "info": "6 stuks", "prijs": 0.95, "cat": "overig" }
+      ],
+      "uitVoorraad": [
+        { "naam": "Zilvervliesrijst", "info": "±650 g over" },
+        { "naam": "Limoen", "info": "2 over van vorige week" },
+        { "naam": "Griekse yoghurt", "info": "halve pot over — als topping" }
+      ],
+      "recept": [
+        "Rijst koken (325 g droog), afspoelen, laten afkoelen.",
+        "Kipreepjes met burritokruiden aanbakken.",
+        "Paprika in reepjes 3 min meebakken; bonen, maïs en tomatenblokjes erbij, 10 min pruttelen.",
+        "Bakjes: rijst onderin, kipmengsel erop.",
+        "Wraps apart bewaren — per avond vers erbij."
+      ],
+      "avondNotitie": "Topping vers: lepel yoghurt + kneep limoen. ±175 g kip per portie ≈ 46 g eiwit."
+    },
+    {
+      "key": "wildcard",
+      "naam": "Volkoren spaghetti bolognese",
+      "keuken": "Italiaans (wildcard)",
+      "beschrijving": "Klassieker met veel gehakt, champignons en winterpeen door de saus. Saus wordt dag 2 en 3 alleen maar beter.",
+      "eiwitPerPortie": 55,
+      "actieveTijd": "25 min",
+      "ingredienten": [
+        { "key": "gehakt", "naam": "Mager rundergehakt", "info": "2× 500 g · AH (check 300g 1+1!)", "prijs": 13.58, "cat": "vlees" },
+        { "key": "spaghetti", "naam": "Volkoren spaghetti", "info": "500 g · AH", "prijs": 0.85, "cat": "overig" },
+        { "key": "passata", "naam": "Passata", "info": "2× 500 g · AH", "prijs": 1.5, "cat": "overig" },
+        { "key": "champignons", "naam": "Kastanjechampignons", "info": "250 g", "prijs": 1.95, "cat": "groente" },
+        { "key": "winterpeen", "naam": "Winterpeen", "info": "1 grote", "prijs": 0.35, "cat": "groente" },
+        { "key": "uien", "naam": "Gele uien", "info": "3 stuks", "prijs": 1.09, "cat": "groente" }
+      ],
+      "uitVoorraad": [
+        { "naam": "Knoflook", "info": "voorraad" },
+        { "naam": "Geraspte kaas", "info": "restje van vorige week — erover" }
+      ],
+      "recept": [
+        "Ui, knoflook, fijngeraspte winterpeen fruiten.",
+        "Gehakt rulbakken, champignons in plakjes erbij.",
+        "Passata erbij, peper/zout/oregano, minstens 20 min zachtjes pruttelen.",
+        "Spaghetti koken (500 g), afspoelen.",
+        "Bakjes: spaghetti onderin, saus erop, restje kaas erover."
+      ],
+      "avondNotitie": "Bakje 3–4 min in magnetron. 250 g gehakt per portie ≈ 55 g eiwit."
+    }
+  ]
+}

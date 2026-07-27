@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-27T11:04:24+00:00",
+  "updated": "2026-07-27T13:48:57+00:00",
   "items": [
     {
       "key": "gehakt",
@@ -9,7 +9,8 @@
       "price": 4.69,
       "bonusPrice": null,
       "isBonus": false,
-      "mechanism": null
+      "mechanism": null,
+      "houdbaar": false
     },
     {
       "key": "gehakt",
@@ -19,7 +20,8 @@
       "price": 6.79,
       "bonusPrice": null,
       "isBonus": false,
-      "mechanism": null
+      "mechanism": null,
+      "houdbaar": false
     },
     {
       "key": "gehakt",
@@ -29,7 +31,8 @@
       "price": 4.25,
       "bonusPrice": null,
       "isBonus": true,
-      "mechanism": "1 + 1 gratis"
+      "mechanism": "1 + 1 gratis",
+      "houdbaar": false
     },
     {
       "key": "gehakt",
@@ -39,7 +42,41 @@
       "price": 5.55,
       "bonusPrice": null,
       "isBonus": false,
-      "mechanism": null
+      "mechanism": null,
+      "houdbaar": false
+    },
+    {
+      "key": "kipdij",
+      "id": 531848,
+      "title": "AH Scharrel kipdijfilet",
+      "size": "770 g",
+      "price": 8.85,
+      "bonusPrice": null,
+      "isBonus": false,
+      "mechanism": null,
+      "houdbaar": false
+    },
+    {
+      "key": "kipdij",
+      "id": 531832,
+      "title": "AH Scharrel kipdijfilet reepjes",
+      "size": "350 g",
+      "price": 4.99,
+      "bonusPrice": null,
+      "isBonus": false,
+      "mechanism": null,
+      "houdbaar": false
+    },
+    {
+      "key": "kipdij",
+      "id": 197231,
+      "title": "AH Scharrel kipdijfilet",
+      "size": "ca. 480 g",
+      "price": 5.98,
+      "bonusPrice": null,
+      "isBonus": false,
+      "mechanism": null,
+      "houdbaar": false
     },
     {
       "key": "yoghurt",
@@ -49,7 +86,41 @@
       "price": 1.89,
       "bonusPrice": null,
       "isBonus": false,
-      "mechanism": null
+      "mechanism": null,
+      "houdbaar": false
+    },
+    {
+      "key": "kaas",
+      "id": 197172,
+      "title": "De Zaanse Hoeve Mild 30+ geraspt",
+      "size": "200 g",
+      "price": 2.19,
+      "bonusPrice": null,
+      "isBonus": false,
+      "mechanism": null,
+      "houdbaar": false
+    },
+    {
+      "key": "kookroom",
+      "id": 509631,
+      "title": "AH Kookroom",
+      "size": "250 ml",
+      "price": 0.99,
+      "bonusPrice": null,
+      "isBonus": false,
+      "mechanism": null,
+      "houdbaar": false
+    },
+    {
+      "key": "kookroom",
+      "id": 475117,
+      "title": "AH Kookroom 20%",
+      "size": "200 ml",
+      "price": 0.99,
+      "bonusPrice": null,
+      "isBonus": false,
+      "mechanism": null,
+      "houdbaar": false
     },
     {
       "key": "kidney",
@@ -59,7 +130,8 @@
       "price": 0.65,
       "bonusPrice": null,
       "isBonus": false,
-      "mechanism": null
+      "mechanism": null,
+      "houdbaar": true
     },
     {
       "key": "zwartebonen",
@@ -69,7 +141,8 @@
       "price": 1.05,
       "bonusPrice": null,
       "isBonus": false,
-      "mechanism": null
+      "mechanism": null,
+      "houdbaar": true
     },
     {
       "key": "tomaat",
@@ -79,7 +152,8 @@
       "price": 1.35,
       "bonusPrice": null,
       "isBonus": false,
-      "mechanism": null
+      "mechanism": null,
+      "houdbaar": true
     },
     {
       "key": "tomaat",
@@ -89,7 +163,19 @@
       "price": 4.05,
       "bonusPrice": 3.64,
       "isBonus": true,
-      "mechanism": "10% volume voordeel"
+      "mechanism": "10% volume voordeel",
+      "houdbaar": true
+    },
+    {
+      "key": "passata",
+      "id": 481844,
+      "title": "AH Tomaten passata gezeefd",
+      "size": "500 g",
+      "price": 0.75,
+      "bonusPrice": null,
+      "isBonus": false,
+      "mechanism": null,
+      "houdbaar": true
     },
     {
       "key": "mais",
@@ -99,7 +185,8 @@
       "price": 0.99,
       "bonusPrice": null,
       "isBonus": false,
-      "mechanism": null
+      "mechanism": null,
+      "houdbaar": true
     },
     {
       "key": "mais",
@@ -109,7 +196,8 @@
       "price": 1.19,
       "bonusPrice": null,
       "isBonus": false,
-      "mechanism": null
+      "mechanism": null,
+      "houdbaar": true
     },
     {
       "key": "kruiden",
@@ -119,7 +207,30 @@
       "price": 1.09,
       "bonusPrice": null,
       "isBonus": false,
-      "mechanism": null
+      "mechanism": null,
+      "houdbaar": true
+    },
+    {
+      "key": "burritokruiden",
+      "id": 417520,
+      "title": "Santa Maria Kruidenmix burrito",
+      "size": "28 g",
+      "price": 1.09,
+      "bonusPrice": null,
+      "isBonus": false,
+      "mechanism": null,
+      "houdbaar": true
+    },
+    {
+      "key": "burritokruiden",
+      "id": 615164,
+      "title": "Santa Maria Kruidenmix burrito 3-pack",
+      "size": "3 stuks",
+      "price": 3.27,
+      "bonusPrice": 2.94,
+      "isBonus": true,
+      "mechanism": "10% volume voordeel",
+      "houdbaar": true
     },
     {
       "key": "rijst",
@@ -129,7 +240,162 @@
       "price": 1.45,
       "bonusPrice": null,
       "isBonus": false,
-      "mechanism": null
+      "mechanism": null,
+      "houdbaar": true
+    },
+    {
+      "key": "spaghetti",
+      "id": 58169,
+      "title": "AH Volkoren spaghetti",
+      "size": "500 g",
+      "price": 0.85,
+      "bonusPrice": null,
+      "isBonus": false,
+      "mechanism": null,
+      "houdbaar": true
+    },
+    {
+      "key": "sojasaus",
+      "id": 496227,
+      "title": "AH Sojasaus",
+      "size": "250 ml",
+      "price": 1.99,
+      "bonusPrice": null,
+      "isBonus": false,
+      "mechanism": null,
+      "houdbaar": true
+    },
+    {
+      "key": "honing",
+      "id": 563730,
+      "title": "AH Honing vloeibaar mild en zoet",
+      "size": "500 g",
+      "price": 2.29,
+      "bonusPrice": null,
+      "isBonus": false,
+      "mechanism": null,
+      "houdbaar": true
+    },
+    {
+      "key": "wraps",
+      "id": 140637,
+      "title": "AH Tortilla naturel wraps large 6 stuks",
+      "size": "370 g",
+      "price": 0.95,
+      "bonusPrice": null,
+      "isBonus": false,
+      "mechanism": null,
+      "houdbaar": true
+    },
+    {
+      "key": "aardappel",
+      "id": 123955,
+      "title": "AH Kruimige aardappelen",
+      "size": "1 kg",
+      "price": 1.49,
+      "bonusPrice": null,
+      "isBonus": false,
+      "mechanism": null,
+      "houdbaar": false
+    },
+    {
+      "key": "aardappel",
+      "id": 482757,
+      "title": "AH Aardappelen kruimig",
+      "size": "800 g",
+      "price": 1.49,
+      "bonusPrice": null,
+      "isBonus": false,
+      "mechanism": null,
+      "houdbaar": false
+    },
+    {
+      "key": "prei",
+      "id": 171425,
+      "title": "AH Prei",
+      "size": "per stuk",
+      "price": 0.69,
+      "bonusPrice": null,
+      "isBonus": false,
+      "mechanism": null,
+      "houdbaar": false
+    },
+    {
+      "key": "broccoliroosjes",
+      "id": 226367,
+      "title": "AH Broccoliroosjes",
+      "size": "450 g",
+      "price": 1.49,
+      "bonusPrice": null,
+      "isBonus": false,
+      "mechanism": null,
+      "houdbaar": false
+    },
+    {
+      "key": "broccoliroosjes",
+      "id": 395954,
+      "title": "AH Broccoli",
+      "size": "400 g",
+      "price": 2.49,
+      "bonusPrice": null,
+      "isBonus": false,
+      "mechanism": null,
+      "houdbaar": false
+    },
+    {
+      "key": "bosui",
+      "id": 169813,
+      "title": "AH Bosui",
+      "size": "per bosje",
+      "price": 0.99,
+      "bonusPrice": null,
+      "isBonus": false,
+      "mechanism": null,
+      "houdbaar": false
+    },
+    {
+      "key": "champignons",
+      "id": 41203,
+      "title": "AH Kastanjechampignons",
+      "size": "250 g",
+      "price": 1.95,
+      "bonusPrice": null,
+      "isBonus": false,
+      "mechanism": null,
+      "houdbaar": false
+    },
+    {
+      "key": "champignons",
+      "id": 378694,
+      "title": "AH Kastanjechampignons gesneden",
+      "size": "250 g",
+      "price": 1.99,
+      "bonusPrice": null,
+      "isBonus": false,
+      "mechanism": null,
+      "houdbaar": false
+    },
+    {
+      "key": "winterpeen",
+      "id": 99036,
+      "title": "AH Winterpeen",
+      "size": "per stuk",
+      "price": 0.35,
+      "bonusPrice": null,
+      "isBonus": false,
+      "mechanism": null,
+      "houdbaar": false
+    },
+    {
+      "key": "winterpeen",
+      "id": 4076,
+      "title": "AH Winterpeen",
+      "size": "1 kg",
+      "price": 1.39,
+      "bonusPrice": null,
+      "isBonus": false,
+      "mechanism": null,
+      "houdbaar": false
     },
     {
       "key": "uien",
@@ -139,7 +405,8 @@
       "price": 1.09,
       "bonusPrice": null,
       "isBonus": false,
-      "mechanism": null
+      "mechanism": null,
+      "houdbaar": false
     },
     {
       "key": "uien",
@@ -149,7 +416,19 @@
       "price": 1.65,
       "bonusPrice": null,
       "isBonus": false,
-      "mechanism": null
+      "mechanism": null,
+      "houdbaar": false
+    },
+    {
+      "key": "knoflook",
+      "id": 4160,
+      "title": "AH Knoflook",
+      "size": "2 stuks",
+      "price": 1.45,
+      "bonusPrice": null,
+      "isBonus": false,
+      "mechanism": null,
+      "houdbaar": false
     },
     {
       "key": "paprika",
@@ -159,7 +438,8 @@
       "price": 0.99,
       "bonusPrice": null,
       "isBonus": false,
-      "mechanism": null
+      "mechanism": null,
+      "houdbaar": false
     },
     {
       "key": "avocado",
@@ -169,7 +449,8 @@
       "price": 2.99,
       "bonusPrice": null,
       "isBonus": false,
-      "mechanism": null
+      "mechanism": null,
+      "houdbaar": false
     },
     {
       "key": "avocado",
@@ -179,7 +460,19 @@
       "price": 2.99,
       "bonusPrice": null,
       "isBonus": false,
-      "mechanism": null
+      "mechanism": null,
+      "houdbaar": false
+    },
+    {
+      "key": "limoen",
+      "id": 519646,
+      "title": "AH Limoenen",
+      "size": "4 stuks",
+      "price": 1.45,
+      "bonusPrice": null,
+      "isBonus": false,
+      "mechanism": null,
+      "houdbaar": false
     },
     {
       "key": "koriander",
@@ -189,7 +482,8 @@
       "price": 1.19,
       "bonusPrice": null,
       "isBonus": false,
-      "mechanism": null
+      "mechanism": null,
+      "houdbaar": false
     }
   ]
 }
