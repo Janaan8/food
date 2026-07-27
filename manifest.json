@@ -1,0 +1,17 @@
+{
+  "name": "Weekmenu",
+  "short_name": "Weekmenu",
+  "description": "Weekmenu en boodschappenlijst voor meal prep",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fbfaf7",
+  "theme_color": "#2f6b3a",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

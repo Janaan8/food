@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Weekmenu 27–30 jul</title>
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon.svg">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="theme-color" content="#2f6b3a">
+</head>
+<body>
+<style>
+  :root {
+    --bg: #fbfaf7;
+    --surface: #ffffff;
+    --ink: #23211c;
+    --ink-soft: #6e6a5e;
+    --line: #e6e3d9;
+    --accent: #2f6b3a;
+    --accent-ink: #ffffff;
+    --accent-soft: #e9f1ea;
+    --done: #a8a294;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1b1a17;
+      --surface: #242320;
+      --ink: #ece9e0;
+      --ink-soft: #a39e8f;
+      --line: #38362f;
+      --accent: #7fb789;
+      --accent-ink: #14281a;
+      --accent-soft: #2a352c;
+      --done: #6e6a5e;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #1b1a17; --surface: #242320; --ink: #ece9e0; --ink-soft: #a39e8f;
+    --line: #38362f; --accent: #7fb789; --accent-ink: #14281a;
+    --accent-soft: #2a352c; --done: #6e6a5e;
+  }
+  :root[data-theme="light"] {
+    --bg: #fbfaf7; --surface: #ffffff; --ink: #23211c; --ink-soft: #6e6a5e;
+    --line: #e6e3d9; --accent: #2f6b3a; --accent-ink: #ffffff;
+    --accent-soft: #e9f1ea; --done: #a8a294;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: ui-rounded, "SF Pro Rounded", system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .wrap { max-width: 34rem; margin: 0 auto; padding: 1rem 1rem 5.5rem; }
+
+  header { padding: 0.5rem 0 1rem; }
+  .eyebrow {
+    font-size: 0.72rem; font-weight: 700; letter-spacing: 0.09em;
+    text-transform: uppercase; color: var(--accent);
+  }
+  h1 { font-size: 1.55rem; line-height: 1.2; margin: 0.15rem 0 0.3rem; text-wrap: balance; }
+  .sub { color: var(--ink-soft); font-size: 0.92rem; margin: 0; }
+
+  nav {
+    position: fixed; bottom: 0; left: 0; right: 0; z-index: 10;
+    background: var(--surface);
+    border-top: 1px solid var(--line);
+    display: flex;
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+  nav button {
+    flex: 1; background: none; border: none; cursor: pointer;
+    font: inherit; font-size: 0.8rem; font-weight: 600;
+    color: var(--ink-soft); padding: 0.8rem 0 0.7rem;
+    border-top: 3px solid transparent;
+  }
+  nav button.active { color: var(--accent); border-top-color: var(--accent); }
+  nav button:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+
+  section[hidden] { display: none; }
+
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 1rem;
+    margin-bottom: 0.9rem;
+  }
+  h2 { font-size: 1.05rem; margin: 0 0 0.6rem; }
+  .cat {
+    font-size: 0.72rem; font-weight: 700; letter-spacing: 0.09em;
+    text-transform: uppercase; color: var(--ink-soft);
+    margin: 1.1rem 0 0.4rem;
+  }
+  .cat:first-child { margin-top: 0; }
+
+  .progress {
+    display: flex; align-items: center; gap: 0.7rem;
+    margin-bottom: 0.9rem;
+  }
+  .bar {
+    flex: 1; height: 8px; border-radius: 4px; background: var(--line);
+    overflow: hidden;
+  }
+  .bar div { height: 100%; width: 0; background: var(--accent); border-radius: 4px; transition: width 0.25s ease; }
+  @media (prefers-reduced-motion: reduce) { .bar div { transition: none; } }
+  .count { font-size: 0.85rem; font-weight: 700; color: var(--ink-soft); font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+  ul.check { list-style: none; margin: 0; padding: 0; }
+  ul.check li { border-bottom: 1px solid var(--line); }
+  ul.check li:last-child { border-bottom: none; }
+  ul.check label {
+    display: flex; align-items: center; gap: 0.75rem;
+    padding: 0.65rem 0.15rem; cursor: pointer;
+  }
+  ul.check input {
+    appearance: none; -webkit-appearance: none;
+    width: 1.35rem; height: 1.35rem; flex: none;
+    border: 2px solid var(--ink-soft); border-radius: 7px;
+    display: grid; place-content: center;
+    background: var(--surface); margin: 0; cursor: pointer;
+  }
+  ul.check input:checked { background: var(--accent); border-color: var(--accent); }
+  ul.check input:checked::after {
+    content: ""; width: 0.4rem; height: 0.7rem;
+    border: solid var(--accent-ink); border-width: 0 2.5px 2.5px 0;
+    transform: rotate(45deg) translateY(-1px);
+  }
+  ul.check input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  ul.check input:checked + span { color: var(--done); }
+  ul.check input:checked + span .item { text-decoration: line-through; }
+  ul.check label > span { flex: 1; display: flex; align-items: baseline; gap: 0.5rem; }
+  ul.check .item { flex: 1; }
+  ul.check .qty { color: var(--ink-soft); font-size: 0.85rem; display: block; }
+  ul.check .price {
+    flex: none; font-weight: 700; font-size: 0.9rem;
+    font-variant-numeric: tabular-nums; color: var(--ink-soft);
+  }
+
+  .totalrow {
+    display: flex; justify-content: space-between; align-items: baseline;
+    border-top: 2px solid var(--ink); margin-top: 0.8rem; padding-top: 0.6rem;
+    font-weight: 800;
+  }
+  .totalrow .amount { font-variant-numeric: tabular-nums; font-size: 1.1rem; }
+
+  .resetrow { margin-top: 0.9rem; text-align: center; }
+  .resetrow button {
+    background: none; border: 1px solid var(--line); border-radius: 999px;
+    color: var(--ink-soft); font: inherit; font-size: 0.85rem; font-weight: 600;
+    padding: 0.45rem 1.1rem; cursor: pointer;
+  }
+  .resetrow button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  ol.steps { margin: 0; padding: 0 0 0 1.4rem; }
+  ol.steps li { padding: 0.35rem 0 0.35rem 0.3rem; }
+  ol.steps li::marker { font-weight: 700; color: var(--accent); }
+
+  .note {
+    background: var(--accent-soft); border-radius: 10px;
+    padding: 0.7rem 0.9rem; font-size: 0.9rem; margin-top: 0.8rem;
+  }
+  .note strong { color: var(--accent); }
+
+  .dayrow {
+    display: flex; gap: 0.75rem; align-items: baseline;
+    padding: 0.55rem 0; border-bottom: 1px solid var(--line);
+  }
+  .dayrow:last-child { border-bottom: none; }
+  .day { flex: none; width: 2.4rem; font-weight: 800; color: var(--accent); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; }
+  .dayrow p { margin: 0; font-size: 0.92rem; }
+  .dayrow small { color: var(--ink-soft); display: block; }
+</style>
+
+<div class="wrap">
+  <header>
+    <p class="eyebrow">Weekmenu · ma 27 – do 30 juli · alleen avondeten</p>
+    <h1>Chili con carne bowl</h1>
+    <p class="sub">4 porties · ~25 min actief · ±55–60 g eiwit · ±€8,80 per portie</p>
+  </header>
+
+  <section id="tab-lijst">
+    <div class="card">
+      <div class="progress">
+        <div class="bar"><div id="pbar"></div></div>
+        <span class="count" id="pcount">0/15</span>
+      </div>
+
+      <p class="cat">Vlees &amp; zuivel</p>
+      <ul class="check">
+        <li><label><input type="checkbox" data-k="gehakt"><span><span class="item">Mager rundergehakt<span class="qty">2× 500 g · AH</span></span><span class="price">€13,58</span></span></label></li>
+        <li><label><input type="checkbox" data-k="yoghurt"><span><span class="item">Yoghurt Griekse stijl 10%<span class="qty">1 kg · Zaanse Hoeve</span></span><span class="price">€1,89</span></span></label></li>
+        <li><label><input type="checkbox" data-k="kaas"><span><span class="item">Geraspte 30+ kaas<span class="qty">200 g · Zaanse Hoeve</span></span><span class="price">€2,19</span></span></label></li>
+      </ul>
+
+      <p class="cat">Blik &amp; droog</p>
+      <ul class="check">
+        <li><label><input type="checkbox" data-k="kidney"><span><span class="item">Kidneybonen<span class="qty">2× 400 g · AH Terra</span></span><span class="price">€1,30</span></span></label></li>
+        <li><label><input type="checkbox" data-k="zwartebonen"><span><span class="item">Zwarte bonen<span class="qty">400 g · AH Terra</span></span><span class="price">€1,05</span></span></label></li>
+        <li><label><input type="checkbox" data-k="tomaat"><span><span class="item">Tomatenblokjes<span class="qty">2× 390 g · Heinz</span></span><span class="price">€2,70</span></span></label></li>
+        <li><label><input type="checkbox" data-k="mais"><span><span class="item">Maïskorrels<span class="qty">150 g blikje</span></span><span class="price">€0,99</span></span></label></li>
+        <li><label><input type="checkbox" data-k="kruiden"><span><span class="item">Chili con carne kruidenmix<span class="qty">Santa Maria</span></span><span class="price">€1,09</span></span></label></li>
+        <li><label><input type="checkbox" data-k="rijst"><span><span class="item">Zilvervliesrijst<span class="qty">1 kg · AH (blijft over)</span></span><span class="price">€1,45</span></span></label></li>
+      </ul>
+
+      <p class="cat">Groente &amp; fruit</p>
+      <ul class="check">
+        <li><label><input type="checkbox" data-k="uien"><span><span class="item">Gele uien<span class="qty">3 stuks</span></span><span class="price">€1,09</span></span></label></li>
+        <li><label><input type="checkbox" data-k="knoflook"><span><span class="item">Knoflook<span class="qty">2 bollen (blijft over)</span></span><span class="price">€1,45</span></span></label></li>
+        <li><label><input type="checkbox" data-k="paprika"><span><span class="item">Paprika rood<span class="qty">2 stuks</span></span><span class="price">€1,98</span></span></label></li>
+        <li><label><input type="checkbox" data-k="avocado"><span><span class="item">Avocado eetrijp<span class="qty">2 stuks</span></span><span class="price">€2,99</span></span></label></li>
+        <li><label><input type="checkbox" data-k="limoen"><span><span class="item">Limoenen<span class="qty">4 stuks (goedkoper dan 2 los)</span></span><span class="price">€1,45</span></span></label></li>
+        <li><label><input type="checkbox" data-k="koriander"><span><span class="item">Verse koriander<span class="qty">optioneel</span></span><span class="price">±€1,10</span></span></label></li>
+      </ul>
+
+      <div class="totalrow"><span>Totaal</span><span class="amount">± €35,30</span></div>
+      <div class="note"><strong>Echte weekkosten lager:</strong> rijst, kruiden, knoflook en halve pot yoghurt gaan meerdere weken mee. Netto ±€8 per avondmaal, incl. 250 g gehakt.</div>
+
+      <div class="resetrow"><button id="reset" type="button">Lijst leegmaken</button></div>
+    </div>
+  </section>
+
+  <section id="tab-recept" hidden>
+    <div class="card">
+      <h2>Bereiding — 4 porties</h2>
+      <ol class="steps">
+        <li>Rijst koken (350 g droog), afspoelen, laten afkoelen.</li>
+        <li>Ui + knoflook fruiten, gehakt rulbakken.</li>
+        <li>Paprika erbij, 3 min meebakken.</li>
+        <li>Kruiden, tomatenblokjes, afgespoelde bonen en maïs erbij. Minstens 15 min zachtjes pruttelen — langer mag, wordt beter.</li>
+        <li>Verdelen over 4 bakjes: rijst onderin, chili erop. Koelkast in.</li>
+      </ol>
+      <div class="note"><strong>Per avond:</strong> bakje 3–4 min in magnetron. Topping vers: flinke lepel Griekse yoghurt, hand kaas, ½ avocado, kneep limoen.</div>
+      <div class="note"><strong>Portie-anker:</strong> kwart van de pan = ±250 g gehakt + bonen ≈ 55–60 g eiwit. Geen weegschaal nodig.</div>
+    </div>
+  </section>
+
+  <section id="tab-week" hidden>
+    <div class="card">
+      <h2>Avondeten</h2>
+      <div class="dayrow"><span class="day">Ma</span><p>Chili bowl <small>topping: yoghurt, kaas, ½ avocado, limoen</small></p></div>
+      <div class="dayrow"><span class="day">Di</span><p>Chili bowl <small>zelfde topping</small></p></div>
+      <div class="dayrow"><span class="day">Wo</span><p>Chili bowl <small>½ avocado van di gebruiken</small></p></div>
+      <div class="dayrow"><span class="day">Do</span><p>Chili bowl <small>laatste bakje</small></p></div>
+      <div class="note"><strong>Focus deze fase:</strong> alleen avondeten. Ontbijtshake blijft zoals het is; lunch pakken we later op.</div>
+    </div>
+  </section>
+
+  <nav>
+    <button type="button" class="active" data-tab="tab-lijst">Boodschappen</button>
+    <button type="button" data-tab="tab-recept">Recept</button>
+    <button type="button" data-tab="tab-week">Weekplan</button>
+  </nav>
+</div>
+
+<script>
+  var KEY = "weekmenu-2026-07-27";
+  var boxes = Array.prototype.slice.call(document.querySelectorAll('ul.check input'));
+  var saved = {};
+  try { saved = JSON.parse(localStorage.getItem(KEY) || "{}"); } catch (e) {}
+
+  function save() {
+    var state = {};
+    boxes.forEach(function (b) { state[b.dataset.k] = b.checked; });
+    try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {}
+  }
+  function updateProgress() {
+    var done = boxes.filter(function (b) { return b.checked; }).length;
+    document.getElementById('pcount').textContent = done + "/" + boxes.length;
+    document.getElementById('pbar').style.width = (done / boxes.length * 100) + "%";
+  }
+  boxes.forEach(function (b) {
+    if (saved[b.dataset.k]) b.checked = true;
+    b.addEventListener('change', function () { save(); updateProgress(); });
+  });
+  updateProgress();
+
+  document.getElementById('reset').addEventListener('click', function () {
+    boxes.forEach(function (b) { b.checked = false; });
+    save(); updateProgress();
+  });
+
+  var tabs = document.querySelectorAll('nav button');
+  tabs.forEach(function (t) {
+    t.addEventListener('click', function () {
+      tabs.forEach(function (o) { o.classList.remove('active'); });
+      t.classList.add('active');
+      ['tab-lijst', 'tab-recept', 'tab-week'].forEach(function (id) {
+        document.getElementById(id).hidden = (id !== t.dataset.tab);
+      });
+      window.scrollTo(0, 0);
+    });
+  });
+</script>
+</body>
+</html>
