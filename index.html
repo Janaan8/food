@@ -23,6 +23,8 @@
     --accent-ink: #ffffff;
     --accent-soft: #e9f1ea;
     --done: #a8a294;
+    --deal: #a35200;
+    --deal-soft: #fdeeda;
   }
   @media (prefers-color-scheme: dark) {
     :root {
@@ -35,17 +37,21 @@
       --accent-ink: #14281a;
       --accent-soft: #2a352c;
       --done: #6e6a5e;
+      --deal: #e8a04c;
+      --deal-soft: #3a2e1e;
     }
   }
   :root[data-theme="dark"] {
     --bg: #1b1a17; --surface: #242320; --ink: #ece9e0; --ink-soft: #a39e8f;
     --line: #38362f; --accent: #7fb789; --accent-ink: #14281a;
     --accent-soft: #2a352c; --done: #6e6a5e;
+    --deal: #e8a04c; --deal-soft: #3a2e1e;
   }
   :root[data-theme="light"] {
     --bg: #fbfaf7; --surface: #ffffff; --ink: #23211c; --ink-soft: #6e6a5e;
     --line: #e6e3d9; --accent: #2f6b3a; --accent-ink: #ffffff;
     --accent-soft: #e9f1ea; --done: #a8a294;
+    --deal: #a35200; --deal-soft: #fdeeda;
   }
   * { box-sizing: border-box; }
   body {
@@ -176,6 +182,26 @@
   .day { flex: none; width: 2.4rem; font-weight: 800; color: var(--accent); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; }
   .dayrow p { margin: 0; font-size: 0.92rem; }
   .dayrow small { color: var(--ink-soft); display: block; }
+
+  .bonuscard { border-color: var(--deal); }
+  .bonuscard h2 { color: var(--deal); }
+  .bonusrow {
+    display: flex; justify-content: space-between; align-items: baseline; gap: 0.6rem;
+    padding: 0.45rem 0; border-bottom: 1px solid var(--line); font-size: 0.92rem;
+  }
+  .bonusrow:last-of-type { border-bottom: none; }
+  .bonusrow small { color: var(--ink-soft); display: block; }
+  .mech {
+    flex: none; background: var(--deal-soft); color: var(--deal);
+    font-weight: 800; font-size: 0.78rem; border-radius: 999px;
+    padding: 0.15rem 0.6rem; white-space: nowrap;
+  }
+  .bonus-badge {
+    display: inline-block; background: var(--deal-soft); color: var(--deal);
+    font-weight: 800; font-size: 0.7rem; border-radius: 999px;
+    padding: 0.05rem 0.45rem; margin-left: 0.35rem; vertical-align: 1px;
+  }
+  .bonus-updated { color: var(--ink-soft); font-size: 0.75rem; margin: 0.5rem 0 0; }
 </style>
 
 <div class="wrap">
@@ -186,6 +212,11 @@
   </header>
 
   <section id="tab-lijst">
+    <div class="card bonuscard" id="bonusbox" hidden>
+      <h2>🏷️ Nu in de bonus</h2>
+      <div id="bonuslist"></div>
+      <p class="bonus-updated" id="bonusdate"></p>
+    </div>
     <div class="card">
       <div class="progress">
         <div class="bar"><div id="pbar"></div></div>
@@ -297,6 +328,54 @@
       window.scrollTo(0, 0);
     });
   });
+
+  // Bonusdata: dagelijks ververst door GitHub Action (scripts/update_bonus.py -> bonus.json)
+  fetch('bonus.json', { cache: 'no-store' })
+    .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(function (data) {
+      var deals = data.items.filter(function (i) { return i.isBonus; });
+      if (!deals.length) return;
+
+      var list = document.getElementById('bonuslist');
+      deals.forEach(function (d) {
+        var row = document.createElement('div');
+        row.className = 'bonusrow';
+        var left = document.createElement('span');
+        var name = document.createElement('span');
+        name.textContent = d.title + ' (' + (d.size || '') + ')';
+        var priceInfo = document.createElement('small');
+        priceInfo.textContent = d.bonusPrice
+          ? '€' + d.price.toFixed(2).replace('.', ',') + ' → €' + d.bonusPrice.toFixed(2).replace('.', ',')
+          : 'normaal €' + d.price.toFixed(2).replace('.', ',');
+        left.appendChild(name);
+        left.appendChild(priceInfo);
+        var mech = document.createElement('span');
+        mech.className = 'mech';
+        mech.textContent = d.mechanism || 'bonus';
+        row.appendChild(left);
+        row.appendChild(mech);
+        list.appendChild(row);
+      });
+
+      var when = new Date(data.updated);
+      document.getElementById('bonusdate').textContent =
+        'Prijzen gecheckt: ' + when.toLocaleDateString('nl-NL', { day: 'numeric', month: 'long' });
+      document.getElementById('bonusbox').hidden = false;
+
+      // Badge op lijstitems waarvan een variant in de bonus is
+      var bonusKeys = {};
+      deals.forEach(function (d) { bonusKeys[d.key] = true; });
+      boxes.forEach(function (b) {
+        if (bonusKeys[b.dataset.k]) {
+          var item = b.parentElement.querySelector('.item');
+          var badge = document.createElement('span');
+          badge.className = 'bonus-badge';
+          badge.textContent = 'BONUS';
+          item.insertBefore(badge, item.querySelector('.qty'));
+        }
+      });
+    })
+    .catch(function () { /* geen bonusdata beschikbaar — lijst werkt gewoon */ });
 </script>
 </body>
 </html>

@@ -1,0 +1,20 @@
+{
+  "comment": "Watchlist voor bonus-check. Per item: zoekterm + webshopIds van varianten die we volgen.",
+  "items": [
+    { "key": "gehakt", "label": "Mager rundergehakt", "query": "rundergehakt", "ids": [199715, 187592, 4004, 4011] },
+    { "key": "yoghurt", "label": "Griekse yoghurt 10%", "query": "zaanse hoeve yoghurt griekse", "ids": [216237] },
+    { "key": "kaas", "label": "Geraspte 30+ kaas", "query": "zaanse hoeve 30+ geraspt", "ids": [197172] },
+    { "key": "kidney", "label": "Kidneybonen", "query": "AH terra kidneybonen", "ids": [30428] },
+    { "key": "zwartebonen", "label": "Zwarte bonen", "query": "AH terra zwarte bonen", "ids": [188265] },
+    { "key": "tomaat", "label": "Tomatenblokjes", "query": "heinz tomaten blokjes naturel", "ids": [378626, 612280] },
+    { "key": "mais", "label": "Maïskorrels", "query": "maiskorrels", "ids": [583799, 800] },
+    { "key": "kruiden", "label": "Chilikruiden", "query": "santa maria chili con carne", "ids": [437580] },
+    { "key": "rijst", "label": "Zilvervliesrijst", "query": "AH zilvervliesrijst", "ids": [162513] },
+    { "key": "uien", "label": "Gele uien", "query": "gele uien", "ids": [525847, 4083] },
+    { "key": "knoflook", "label": "Knoflook", "query": "AH knoflook", "ids": [4160] },
+    { "key": "paprika", "label": "Paprika rood", "query": "paprika rood", "ids": [4117] },
+    { "key": "avocado", "label": "Avocado", "query": "avocado eetrijp", "ids": [129400, 470588] },
+    { "key": "limoen", "label": "Limoenen", "query": "AH limoenen", "ids": [519646] },
+    { "key": "koriander", "label": "Verse koriander", "query": "verse koriander", "ids": [238968] }
+  ]
+}

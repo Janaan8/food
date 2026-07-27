@@ -1,0 +1,225 @@
+{
+  "updated": "2026-07-27T10:59:27+00:00",
+  "items": [
+    {
+      "key": "gehakt",
+      "id": 199715,
+      "title": "AH Mager rundergehakt 300g",
+      "size": "300 g",
+      "price": 4.69,
+      "bonusPrice": null,
+      "isBonus": false,
+      "mechanism": null
+    },
+    {
+      "key": "gehakt",
+      "id": 187592,
+      "title": "AH Mager rundergehakt",
+      "size": "500 g",
+      "price": 6.79,
+      "bonusPrice": null,
+      "isBonus": false,
+      "mechanism": null
+    },
+    {
+      "key": "gehakt",
+      "id": 4004,
+      "title": "AH Rundergehakt",
+      "size": "300 g",
+      "price": 4.25,
+      "bonusPrice": null,
+      "isBonus": true,
+      "mechanism": "1 + 1 gratis"
+    },
+    {
+      "key": "gehakt",
+      "id": 4011,
+      "title": "AH Rundergehakt",
+      "size": "500 g",
+      "price": 5.55,
+      "bonusPrice": null,
+      "isBonus": false,
+      "mechanism": null
+    },
+    {
+      "key": "yoghurt",
+      "id": 216237,
+      "title": "De Zaanse Hoeve Yoghurt Griekse stijl 10% vet",
+      "size": "1 kg",
+      "price": 1.89,
+      "bonusPrice": null,
+      "isBonus": false,
+      "mechanism": null
+    },
+    {
+      "key": "kaas",
+      "id": 197172,
+      "title": "De Zaanse Hoeve Mild 30+ geraspt",
+      "size": "200 g",
+      "price": 2.19,
+      "bonusPrice": null,
+      "isBonus": false,
+      "mechanism": null
+    },
+    {
+      "key": "kidney",
+      "id": 30428,
+      "title": "AH Terra Kidneybonen",
+      "size": "400 g",
+      "price": 0.65,
+      "bonusPrice": null,
+      "isBonus": false,
+      "mechanism": null
+    },
+    {
+      "key": "zwartebonen",
+      "id": 188265,
+      "title": "AH Terra Zwarte bonen",
+      "size": "400 g",
+      "price": 1.05,
+      "bonusPrice": null,
+      "isBonus": false,
+      "mechanism": null
+    },
+    {
+      "key": "tomaat",
+      "id": 378626,
+      "title": "Heinz Tomaten blokjes naturel",
+      "size": "390 g",
+      "price": 1.35,
+      "bonusPrice": null,
+      "isBonus": false,
+      "mechanism": null
+    },
+    {
+      "key": "tomaat",
+      "id": 612280,
+      "title": "Heinz Tomaten blokjes naturel 3-pack",
+      "size": "3 stuks",
+      "price": 4.05,
+      "bonusPrice": 3.64,
+      "isBonus": true,
+      "mechanism": "10% volume voordeel"
+    },
+    {
+      "key": "mais",
+      "id": 583799,
+      "title": "AH Biologisch Maiskorrels 0% zout toegevoegd",
+      "size": "150 g",
+      "price": 0.99,
+      "bonusPrice": null,
+      "isBonus": false,
+      "mechanism": null
+    },
+    {
+      "key": "mais",
+      "id": 800,
+      "title": "AH Maiskorrels fris en knapperig",
+      "size": "340 g",
+      "price": 1.19,
+      "bonusPrice": null,
+      "isBonus": false,
+      "mechanism": null
+    },
+    {
+      "key": "kruiden",
+      "id": 437580,
+      "title": "Santa Maria Kruidenmix chili con carne",
+      "size": "28 g",
+      "price": 1.09,
+      "bonusPrice": null,
+      "isBonus": false,
+      "mechanism": null
+    },
+    {
+      "key": "rijst",
+      "id": 162513,
+      "title": "AH Zilvervliesrijst",
+      "size": "1 kg",
+      "price": 1.45,
+      "bonusPrice": null,
+      "isBonus": false,
+      "mechanism": null
+    },
+    {
+      "key": "uien",
+      "id": 525847,
+      "title": "AH Gele uien",
+      "size": "3 stuks",
+      "price": 1.09,
+      "bonusPrice": null,
+      "isBonus": false,
+      "mechanism": null
+    },
+    {
+      "key": "uien",
+      "id": 4083,
+      "title": "AH Gele uien",
+      "size": "1 kg",
+      "price": 1.65,
+      "bonusPrice": null,
+      "isBonus": false,
+      "mechanism": null
+    },
+    {
+      "key": "knoflook",
+      "id": 4160,
+      "title": "AH Knoflook",
+      "size": "2 stuks",
+      "price": 1.45,
+      "bonusPrice": null,
+      "isBonus": false,
+      "mechanism": null
+    },
+    {
+      "key": "paprika",
+      "id": 4117,
+      "title": "AH Paprika rood",
+      "size": "per stuk",
+      "price": 0.99,
+      "bonusPrice": null,
+      "isBonus": false,
+      "mechanism": null
+    },
+    {
+      "key": "avocado",
+      "id": 129400,
+      "title": "AH Avocado eetrijp",
+      "size": "2 stuks",
+      "price": 2.99,
+      "bonusPrice": null,
+      "isBonus": false,
+      "mechanism": null
+    },
+    {
+      "key": "avocado",
+      "id": 470588,
+      "title": "AH Baby avocado eetrijp",
+      "size": "4 stuks",
+      "price": 2.99,
+      "bonusPrice": null,
+      "isBonus": false,
+      "mechanism": null
+    },
+    {
+      "key": "limoen",
+      "id": 519646,
+      "title": "AH Limoenen",
+      "size": "4 stuks",
+      "price": 1.45,
+      "bonusPrice": null,
+      "isBonus": false,
+      "mechanism": null
+    },
+    {
+      "key": "koriander",
+      "id": 238968,
+      "title": "AH Koriander",
+      "size": "15 g",
+      "price": 1.19,
+      "bonusPrice": null,
+      "isBonus": false,
+      "mechanism": null
+    }
+  ]
+}
