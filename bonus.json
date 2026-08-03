@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-02T07:34:34+00:00",
+  "updated": "2026-08-03T08:33:49+00:00",
   "items": [
     {
       "key": "gehakt",
@@ -30,8 +30,8 @@
       "size": "300 g",
       "price": 4.25,
       "bonusPrice": null,
-      "isBonus": true,
-      "mechanism": "1 + 1 GRATIS",
+      "isBonus": false,
+      "mechanism": null,
       "houdbaar": false
     },
     {
@@ -72,7 +72,7 @@
       "id": 197231,
       "title": "AH Scharrel kipdijfilet",
       "size": "ca. 480 g",
-      "price": 5.98,
+      "price": 5.88,
       "bonusPrice": null,
       "isBonus": false,
       "mechanism": null,
@@ -83,7 +83,7 @@
       "id": 216237,
       "title": "De Zaanse Hoeve Yoghurt Griekse stijl 10% vet",
       "size": "1 kg",
-      "price": 1.89,
+      "price": 1.99,
       "bonusPrice": null,
       "isBonus": false,
       "mechanism": null,
@@ -292,7 +292,7 @@
       "id": 123955,
       "title": "AH Kruimige aardappelen",
       "size": "1 kg",
-      "price": 1.49,
+      "price": 1.19,
       "bonusPrice": null,
       "isBonus": false,
       "mechanism": null,
@@ -314,7 +314,7 @@
       "id": 171425,
       "title": "AH Prei",
       "size": "per stuk",
-      "price": 0.69,
+      "price": 0.75,
       "bonusPrice": null,
       "isBonus": false,
       "mechanism": null,
@@ -369,7 +369,7 @@
       "id": 378694,
       "title": "AH Kastanjechampignons gesneden",
       "size": "250 g",
-      "price": 1.99,
+      "price": 2.19,
       "bonusPrice": null,
       "isBonus": false,
       "mechanism": null,
