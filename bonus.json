@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-06T07:43:47+00:00",
+  "updated": "2026-08-08T05:45:06+00:00",
   "items": [
     {
       "key": "gehakt",
@@ -437,8 +437,8 @@
       "size": "per stuk",
       "price": 0.99,
       "bonusPrice": null,
-      "isBonus": false,
-      "mechanism": null,
+      "isBonus": true,
+      "mechanism": "1 + 1 gratis",
       "houdbaar": false
     },
     {
