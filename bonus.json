@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-08T05:45:06+00:00",
+  "updated": "2026-08-10T06:14:25+00:00",
   "items": [
     {
       "key": "gehakt",
@@ -215,7 +215,7 @@
       "id": 417520,
       "title": "Santa Maria Kruidenmix burrito",
       "size": "28 g",
-      "price": 1.09,
+      "price": 0.99,
       "bonusPrice": null,
       "isBonus": false,
       "mechanism": null,
@@ -226,8 +226,8 @@
       "id": 615164,
       "title": "Santa Maria Kruidenmix burrito 3-pack",
       "size": "3 stuks",
-      "price": 3.27,
-      "bonusPrice": 2.94,
+      "price": 2.97,
+      "bonusPrice": 2.67,
       "isBonus": true,
       "mechanism": "10% volume voordeel",
       "houdbaar": true
@@ -237,7 +237,7 @@
       "id": 162513,
       "title": "AH Zilvervliesrijst",
       "size": "1 kg",
-      "price": 1.45,
+      "price": 1.42,
       "bonusPrice": null,
       "isBonus": false,
       "mechanism": null,
@@ -358,7 +358,7 @@
       "id": 41203,
       "title": "AH Kastanjechampignons",
       "size": "250 g",
-      "price": 1.95,
+      "price": 1.89,
       "bonusPrice": null,
       "isBonus": false,
       "mechanism": null,
@@ -413,7 +413,7 @@
       "id": 4083,
       "title": "AH Gele uien",
       "size": "1 kg",
-      "price": 1.65,
+      "price": 1.29,
       "bonusPrice": null,
       "isBonus": false,
       "mechanism": null,
