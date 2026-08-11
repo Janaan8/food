@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-10T06:14:25+00:00",
+  "updated": "2026-08-11T05:56:04+00:00",
   "items": [
     {
       "key": "gehakt",
@@ -172,17 +172,6 @@
       "title": "AH Tomaten passata gezeefd",
       "size": "500 g",
       "price": 0.75,
-      "bonusPrice": null,
-      "isBonus": false,
-      "mechanism": null,
-      "houdbaar": true
-    },
-    {
-      "key": "mais",
-      "id": 583799,
-      "title": "AH Biologisch Maiskorrels 0% zout toegevoegd",
-      "size": "150 g",
-      "price": 0.99,
       "bonusPrice": null,
       "isBonus": false,
       "mechanism": null,
