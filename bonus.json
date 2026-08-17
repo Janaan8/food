@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-16T05:33:17+00:00",
+  "updated": "2026-08-17T05:38:53+00:00",
   "items": [
     {
       "key": "gehakt",
@@ -369,7 +369,7 @@
       "id": 99036,
       "title": "AH Winterpeen",
       "size": "per stuk",
-      "price": 0.35,
+      "price": 0.39,
       "bonusPrice": null,
       "isBonus": false,
       "mechanism": null,
@@ -426,8 +426,8 @@
       "size": "per stuk",
       "price": 0.99,
       "bonusPrice": null,
-      "isBonus": true,
-      "mechanism": "1 + 1 GRATIS",
+      "isBonus": false,
+      "mechanism": null,
       "houdbaar": false
     },
     {
