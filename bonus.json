@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-21T05:37:06+00:00",
+  "updated": "2026-08-25T05:36:18+00:00",
   "items": [
     {
       "key": "gehakt",
@@ -83,7 +83,7 @@
       "id": 216237,
       "title": "De Zaanse Hoeve Yoghurt Griekse stijl 10% vet",
       "size": "1 kg",
-      "price": 1.99,
+      "price": 1.65,
       "bonusPrice": null,
       "isBonus": false,
       "mechanism": null,
@@ -248,7 +248,7 @@
       "id": 58169,
       "title": "AH Volkoren spaghetti",
       "size": "500 g",
-      "price": 0.85,
+      "price": 0.79,
       "bonusPrice": null,
       "isBonus": false,
       "mechanism": null,
@@ -314,7 +314,7 @@
       "id": 171425,
       "title": "AH Prei",
       "size": "per stuk",
-      "price": 0.75,
+      "price": 0.69,
       "bonusPrice": null,
       "isBonus": false,
       "mechanism": null,
@@ -435,7 +435,7 @@
       "id": 4117,
       "title": "AH Paprika rood",
       "size": "per stuk",
-      "price": 0.99,
+      "price": 1.09,
       "bonusPrice": null,
       "isBonus": false,
       "mechanism": null,
