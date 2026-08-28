@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-26T05:38:50+00:00",
+  "updated": "2026-08-28T17:14:28+00:00",
   "items": [
     {
       "key": "gehakt",
@@ -205,9 +205,9 @@
       "title": "Santa Maria Kruidenmix chili con carne",
       "size": "28 g",
       "price": 1.09,
-      "bonusPrice": null,
-      "isBonus": false,
-      "mechanism": null,
+      "bonusPrice": 0.82,
+      "isBonus": true,
+      "mechanism": "25% korting",
       "houdbaar": true
     },
     {
@@ -216,9 +216,9 @@
       "title": "Santa Maria Kruidenmix burrito",
       "size": "28 g",
       "price": 0.99,
-      "bonusPrice": null,
-      "isBonus": false,
-      "mechanism": null,
+      "bonusPrice": 0.74,
+      "isBonus": true,
+      "mechanism": "25% korting",
       "houdbaar": true
     },
     {
