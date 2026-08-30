@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-28T17:14:28+00:00",
+  "updated": "2026-08-30T10:24:49+00:00",
   "items": [
     {
       "key": "gehakt",
@@ -447,7 +447,7 @@
       "title": "AH Avocado eetrijp",
       "size": "2 stuks",
       "price": 2.99,
-      "bonusPrice": 2.19,
+      "bonusPrice": null,
       "isBonus": true,
       "mechanism": "VOOR 2.19",
       "houdbaar": false
