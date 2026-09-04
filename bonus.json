@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31T11:29:31+00:00",
+  "updated": "2026-09-04T09:25:15+00:00",
   "items": [
     {
       "key": "gehakt",
@@ -62,9 +62,9 @@
       "title": "AH Scharrel kipdijfilet reepjes",
       "size": "350 g",
       "price": 4.99,
-      "bonusPrice": null,
-      "isBonus": false,
-      "mechanism": null,
+      "bonusPrice": 3.99,
+      "isBonus": true,
+      "mechanism": "1 euro korting",
       "houdbaar": false
     },
     {
@@ -392,9 +392,9 @@
       "title": "AH Winterpeen",
       "size": "1 kg",
       "price": 1.39,
-      "bonusPrice": null,
-      "isBonus": false,
-      "mechanism": null,
+      "bonusPrice": 0.99,
+      "isBonus": true,
+      "mechanism": "VOOR 0.99",
       "houdbaar": false
     },
     {
@@ -437,8 +437,8 @@
       "size": "per stuk",
       "price": 1.09,
       "bonusPrice": null,
-      "isBonus": false,
-      "mechanism": null,
+      "isBonus": true,
+      "mechanism": "1 + 1 gratis",
       "houdbaar": false
     },
     {
