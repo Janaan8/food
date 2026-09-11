@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07T10:02:23+00:00",
+  "updated": "2026-09-11T09:26:40+00:00",
   "items": [
     {
       "key": "gehakt",
@@ -40,9 +40,9 @@
       "title": "AH Rundergehakt",
       "size": "500 g",
       "price": 5.55,
-      "bonusPrice": null,
-      "isBonus": false,
-      "mechanism": null,
+      "bonusPrice": 3.99,
+      "isBonus": true,
+      "mechanism": "VOOR 3.99",
       "houdbaar": false
     },
     {
@@ -360,8 +360,8 @@
       "size": "250 g",
       "price": 1.89,
       "bonusPrice": null,
-      "isBonus": false,
-      "mechanism": null,
+      "isBonus": true,
+      "mechanism": "2 voor 2.59",
       "houdbaar": false
     },
     {
