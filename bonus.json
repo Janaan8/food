@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12T09:08:10+00:00",
+  "updated": "2026-09-13T10:05:30+00:00",
   "items": [
     {
       "key": "gehakt",
@@ -64,7 +64,7 @@
       "price": 4.99,
       "bonusPrice": 3.99,
       "isBonus": true,
-      "mechanism": "1 euro korting",
+      "mechanism": "1 EURO KORTING",
       "houdbaar": false
     },
     {
@@ -392,7 +392,7 @@
       "title": "AH Winterpeen",
       "size": "1 kg",
       "price": 1.39,
-      "bonusPrice": 0.99,
+      "bonusPrice": null,
       "isBonus": true,
       "mechanism": "VOOR 0.99",
       "houdbaar": false
@@ -438,7 +438,7 @@
       "price": 1.09,
       "bonusPrice": null,
       "isBonus": true,
-      "mechanism": "1 + 1 gratis",
+      "mechanism": "1 + 1 GRATIS",
       "houdbaar": false
     },
     {
