@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-14T10:28:12+00:00",
+  "updated": "2026-09-18T09:31:21+00:00",
   "items": [
     {
       "key": "gehakt",
@@ -150,9 +150,9 @@
       "title": "Heinz Tomaten blokjes naturel",
       "size": "390 g",
       "price": 1.35,
-      "bonusPrice": null,
-      "isBonus": false,
-      "mechanism": null,
+      "bonusPrice": 0.99,
+      "isBonus": true,
+      "mechanism": "VOOR 0.99",
       "houdbaar": true
     },
     {
