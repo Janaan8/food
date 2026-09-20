@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-18T09:31:21+00:00",
+  "updated": "2026-09-20T09:40:29+00:00",
   "items": [
     {
       "key": "gehakt",
@@ -40,7 +40,7 @@
       "title": "AH Rundergehakt",
       "size": "500 g",
       "price": 5.55,
-      "bonusPrice": 3.99,
+      "bonusPrice": null,
       "isBonus": true,
       "mechanism": "VOOR 3.99",
       "houdbaar": false
@@ -361,7 +361,7 @@
       "price": 1.89,
       "bonusPrice": null,
       "isBonus": true,
-      "mechanism": "2 voor 2.89",
+      "mechanism": "2 VOOR 2.89",
       "houdbaar": false
     },
     {
@@ -392,7 +392,7 @@
       "title": "AH Winterpeen",
       "size": "1 kg",
       "price": 1.39,
-      "bonusPrice": 0.99,
+      "bonusPrice": null,
       "isBonus": true,
       "mechanism": "VOOR 0.99",
       "houdbaar": false
