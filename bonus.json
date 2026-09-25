@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21T10:33:38+00:00",
+  "updated": "2026-09-25T10:05:19+00:00",
   "items": [
     {
       "key": "gehakt",
@@ -249,9 +249,9 @@
       "title": "AH Volkoren spaghetti",
       "size": "500 g",
       "price": 0.69,
-      "bonusPrice": null,
-      "isBonus": false,
-      "mechanism": null,
+      "bonusPrice": 0.52,
+      "isBonus": true,
+      "mechanism": "25% korting",
       "houdbaar": true
     },
     {
@@ -382,8 +382,8 @@
       "size": "per stuk",
       "price": 0.45,
       "bonusPrice": null,
-      "isBonus": false,
-      "mechanism": null,
+      "isBonus": true,
+      "mechanism": "3 VOOR 0.89",
       "houdbaar": false
     },
     {
