@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-02T10:58:15+00:00",
+  "updated": "2026-10-05T12:09:23+00:00",
   "items": [
     {
       "key": "gehakt",
@@ -237,7 +237,7 @@
       "id": 162513,
       "title": "AH Zilvervliesrijst",
       "size": "1 kg",
-      "price": 1.15,
+      "price": 1.09,
       "bonusPrice": null,
       "isBonus": false,
       "mechanism": null,
@@ -248,10 +248,10 @@
       "id": 58169,
       "title": "AH Volkoren spaghetti",
       "size": "500 g",
-      "price": 0.69,
-      "bonusPrice": 0.52,
-      "isBonus": true,
-      "mechanism": "25% korting",
+      "price": 0.59,
+      "bonusPrice": null,
+      "isBonus": false,
+      "mechanism": null,
       "houdbaar": true
     },
     {
@@ -380,10 +380,10 @@
       "id": 99036,
       "title": "AH Winterpeen",
       "size": "per stuk",
-      "price": 0.45,
+      "price": 0.39,
       "bonusPrice": null,
-      "isBonus": true,
-      "mechanism": "3 VOOR 0.89",
+      "isBonus": false,
+      "mechanism": null,
       "houdbaar": false
     },
     {
