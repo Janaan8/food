@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05T12:09:23+00:00",
+  "updated": "2026-10-09T11:44:33+00:00",
   "items": [
     {
       "key": "gehakt",
@@ -62,17 +62,6 @@
       "title": "AH Scharrel kipdijfilet reepjes",
       "size": "350 g",
       "price": 4.99,
-      "bonusPrice": null,
-      "isBonus": false,
-      "mechanism": null,
-      "houdbaar": false
-    },
-    {
-      "key": "kipdij",
-      "id": 197231,
-      "title": "AH Scharrel kipdijfilet",
-      "size": "ca. 530 g",
-      "price": 6.49,
       "bonusPrice": null,
       "isBonus": false,
       "mechanism": null,
@@ -206,8 +195,8 @@
       "size": "28 g",
       "price": 1.09,
       "bonusPrice": null,
-      "isBonus": false,
-      "mechanism": null,
+      "isBonus": true,
+      "mechanism": "2 + 1 gratis",
       "houdbaar": true
     },
     {
@@ -217,8 +206,8 @@
       "size": "28 g",
       "price": 0.99,
       "bonusPrice": null,
-      "isBonus": false,
-      "mechanism": null,
+      "isBonus": true,
+      "mechanism": "2 + 1 gratis",
       "houdbaar": true
     },
     {
@@ -437,8 +426,8 @@
       "size": "per stuk",
       "price": 0.95,
       "bonusPrice": null,
-      "isBonus": false,
-      "mechanism": null,
+      "isBonus": true,
+      "mechanism": "4 stapelen voor 2.49",
       "houdbaar": false
     },
     {
@@ -448,8 +437,8 @@
       "size": "2 stuks",
       "price": 3.19,
       "bonusPrice": null,
-      "isBonus": false,
-      "mechanism": null,
+      "isBonus": true,
+      "mechanism": "BONUS",
       "houdbaar": false
     },
     {
