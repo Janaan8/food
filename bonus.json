@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19T10:38:04+00:00",
+  "updated": "2026-10-23T09:51:03+00:00",
   "items": [
     {
       "key": "gehakt",
@@ -283,8 +283,8 @@
       "size": "1 kg",
       "price": 1.29,
       "bonusPrice": null,
-      "isBonus": false,
-      "mechanism": null,
+      "isBonus": true,
+      "mechanism": "2 voor 1.99",
       "houdbaar": false
     },
     {
