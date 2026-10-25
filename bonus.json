@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23T09:51:03+00:00",
+  "updated": "2026-10-25T09:40:02+00:00",
   "items": [
     {
       "key": "gehakt",
@@ -9,7 +9,7 @@
       "price": 4.69,
       "bonusPrice": null,
       "isBonus": true,
-      "mechanism": "2e gratis",
+      "mechanism": "2e GRATIS",
       "houdbaar": false
     },
     {
@@ -31,7 +31,7 @@
       "price": 4.19,
       "bonusPrice": null,
       "isBonus": true,
-      "mechanism": "2e gratis",
+      "mechanism": "2e GRATIS",
       "houdbaar": false
     },
     {
