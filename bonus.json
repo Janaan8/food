@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25T09:40:02+00:00",
+  "updated": "2026-10-26T10:53:37+00:00",
   "items": [
     {
       "key": "gehakt",
@@ -8,8 +8,8 @@
       "size": "300 g",
       "price": 4.69,
       "bonusPrice": null,
-      "isBonus": true,
-      "mechanism": "2e GRATIS",
+      "isBonus": false,
+      "mechanism": null,
       "houdbaar": false
     },
     {
@@ -30,8 +30,8 @@
       "size": "300 g",
       "price": 4.19,
       "bonusPrice": null,
-      "isBonus": true,
-      "mechanism": "2e GRATIS",
+      "isBonus": false,
+      "mechanism": null,
       "houdbaar": false
     },
     {
@@ -127,7 +127,7 @@
       "id": 188265,
       "title": "AH Terra Zwarte bonen",
       "size": "400 g",
-      "price": 1.05,
+      "price": 0.99,
       "bonusPrice": null,
       "isBonus": false,
       "mechanism": null,
@@ -325,7 +325,7 @@
       "id": 395954,
       "title": "AH Broccoli",
       "size": "400 g",
-      "price": 2.49,
+      "price": 2.59,
       "bonusPrice": null,
       "isBonus": false,
       "mechanism": null,
@@ -402,7 +402,7 @@
       "id": 4083,
       "title": "AH Gele uien",
       "size": "1 kg",
-      "price": 0.95,
+      "price": 0.99,
       "bonusPrice": null,
       "isBonus": false,
       "mechanism": null,
@@ -424,7 +424,7 @@
       "id": 4117,
       "title": "AH Paprika rood",
       "size": "per stuk",
-      "price": 0.95,
+      "price": 0.99,
       "bonusPrice": null,
       "isBonus": false,
       "mechanism": null,
