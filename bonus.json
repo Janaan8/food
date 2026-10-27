@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-26T10:53:37+00:00",
+  "updated": "2026-10-27T10:17:38+00:00",
   "items": [
     {
       "key": "gehakt",
@@ -72,7 +72,7 @@
       "id": 216237,
       "title": "De Zaanse Hoeve Yoghurt Griekse stijl 10% vet",
       "size": "1 kg",
-      "price": 1.69,
+      "price": 1.55,
       "bonusPrice": null,
       "isBonus": false,
       "mechanism": null,
@@ -160,7 +160,7 @@
       "id": 481844,
       "title": "AH Tomaten passata gezeefd",
       "size": "500 g",
-      "price": 0.65,
+      "price": 0.62,
       "bonusPrice": null,
       "isBonus": false,
       "mechanism": null,
@@ -226,7 +226,7 @@
       "id": 162513,
       "title": "AH Zilvervliesrijst",
       "size": "1 kg",
-      "price": 1.09,
+      "price": 0.99,
       "bonusPrice": null,
       "isBonus": false,
       "mechanism": null,
@@ -235,7 +235,7 @@
     {
       "key": "spaghetti",
       "id": 58169,
-      "title": "AH Volkoren spaghetti",
+      "title": "AH Biologisch Volkoren spaghetti",
       "size": "500 g",
       "price": 0.59,
       "bonusPrice": null,
