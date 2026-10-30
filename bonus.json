@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27T10:17:38+00:00",
+  "updated": "2026-10-30T11:15:31+00:00",
   "items": [
     {
       "key": "gehakt",
@@ -29,9 +29,9 @@
       "title": "AH Rundergehakt",
       "size": "300 g",
       "price": 4.19,
-      "bonusPrice": null,
-      "isBonus": false,
-      "mechanism": null,
+      "bonusPrice": 3.79,
+      "isBonus": true,
+      "mechanism": "VOOR 3.79",
       "houdbaar": false
     },
     {
@@ -304,9 +304,9 @@
       "title": "AH Prei",
       "size": "per stuk",
       "price": 0.59,
-      "bonusPrice": null,
-      "isBonus": false,
-      "mechanism": null,
+      "bonusPrice": 0.39,
+      "isBonus": true,
+      "mechanism": "VOOR 0.39",
       "houdbaar": false
     },
     {
@@ -447,9 +447,9 @@
       "title": "AH Baby avocado eetrijp",
       "size": "4 stuks",
       "price": 3.29,
-      "bonusPrice": null,
-      "isBonus": false,
-      "mechanism": null,
+      "bonusPrice": 2.3,
+      "isBonus": true,
+      "mechanism": "30% korting",
       "houdbaar": false
     },
     {
