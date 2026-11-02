@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01T11:44:58+00:00",
+  "updated": "2026-11-02T13:16:57+00:00",
   "items": [
     {
       "key": "gehakt",
@@ -39,7 +39,7 @@
       "id": 4011,
       "title": "AH Rundergehakt",
       "size": "500 g",
-      "price": 5.38,
+      "price": 5.35,
       "bonusPrice": null,
       "isBonus": false,
       "mechanism": null,
@@ -127,7 +127,7 @@
       "id": 188265,
       "title": "AH Terra Zwarte bonen",
       "size": "400 g",
-      "price": 0.99,
+      "price": 0.95,
       "bonusPrice": null,
       "isBonus": false,
       "mechanism": null,
@@ -283,8 +283,8 @@
       "size": "1 kg",
       "price": 1.29,
       "bonusPrice": null,
-      "isBonus": true,
-      "mechanism": "2 VOOR 1.99",
+      "isBonus": false,
+      "mechanism": null,
       "houdbaar": false
     },
     {
@@ -424,7 +424,7 @@
       "id": 4117,
       "title": "AH Paprika rood",
       "size": "per stuk",
-      "price": 0.99,
+      "price": 1.09,
       "bonusPrice": null,
       "isBonus": false,
       "mechanism": null,
