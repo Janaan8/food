@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T12:32:44+00:00",
+  "updated": "2026-11-13T12:56:03+00:00",
   "items": [
     {
       "key": "gehakt",
@@ -7,9 +7,9 @@
       "title": "AH Mager rundergehakt 300g",
       "size": "300 g",
       "price": 4.69,
-      "bonusPrice": null,
-      "isBonus": false,
-      "mechanism": null,
+      "bonusPrice": 3.99,
+      "isBonus": true,
+      "mechanism": "VOOR 3.99",
       "houdbaar": false
     },
     {
@@ -139,9 +139,9 @@
       "title": "Heinz Tomaten blokjes naturel",
       "size": "390 g",
       "price": 1.35,
-      "bonusPrice": null,
-      "isBonus": false,
-      "mechanism": null,
+      "bonusPrice": 0.99,
+      "isBonus": true,
+      "mechanism": "VOOR 0.99",
       "houdbaar": true
     },
     {
@@ -195,8 +195,8 @@
       "size": "28 g",
       "price": 1.09,
       "bonusPrice": null,
-      "isBonus": false,
-      "mechanism": null,
+      "isBonus": true,
+      "mechanism": "1 + 1 gratis",
       "houdbaar": true
     },
     {
@@ -206,8 +206,8 @@
       "size": "28 g",
       "price": 0.99,
       "bonusPrice": null,
-      "isBonus": false,
-      "mechanism": null,
+      "isBonus": true,
+      "mechanism": "1 + 1 gratis",
       "houdbaar": true
     },
     {
