@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T12:56:03+00:00",
+  "updated": "2026-11-15T12:35:37+00:00",
   "items": [
     {
       "key": "gehakt",
@@ -381,7 +381,7 @@
       "title": "AH Winterpeen",
       "size": "1 kg",
       "price": 1.39,
-      "bonusPrice": 0.99,
+      "bonusPrice": null,
       "isBonus": true,
       "mechanism": "VOOR 0.99",
       "houdbaar": false
