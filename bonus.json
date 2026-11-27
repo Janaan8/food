@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T15:47:41+00:00",
+  "updated": "2026-11-27T14:50:29+00:00",
   "items": [
     {
       "key": "gehakt",
@@ -40,9 +40,9 @@
       "title": "AH Rundergehakt",
       "size": "500 g",
       "price": 5.31,
-      "bonusPrice": null,
-      "isBonus": false,
-      "mechanism": null,
+      "bonusPrice": 4.49,
+      "isBonus": true,
+      "mechanism": "VOOR 4.49",
       "houdbaar": false
     },
     {
@@ -62,9 +62,9 @@
       "title": "AH Scharrel kipdijfilet reepjes",
       "size": "350 g",
       "price": 4.99,
-      "bonusPrice": null,
-      "isBonus": false,
-      "mechanism": null,
+      "bonusPrice": 3.99,
+      "isBonus": true,
+      "mechanism": "1 euro korting",
       "houdbaar": false
     },
     {
@@ -436,9 +436,9 @@
       "title": "AH Avocado eetrijp",
       "size": "2 stuks",
       "price": 3.19,
-      "bonusPrice": null,
-      "isBonus": false,
-      "mechanism": null,
+      "bonusPrice": 2.19,
+      "isBonus": true,
+      "mechanism": "VOOR 2.19",
       "houdbaar": false
     },
     {
